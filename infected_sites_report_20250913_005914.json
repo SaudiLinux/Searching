@@ -1,0 +1,145 @@
+[
+  {
+    "domain": "gov.il",
+    "ip_address": "147.237.12.20",
+    "israeli_type": "Government",
+    "category": "Official Government",
+    "severity": "HIGH",
+    "description": "Israeli Government Portal",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:57:14.023486",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "ynet.co.il",
+    "ip_address": "23.34.1.191",
+    "israeli_type": "News",
+    "category": "Major News Portal",
+    "severity": "HIGH",
+    "description": "Ynet - Israeli News",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:57:23.993914",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "haaretz.co.il",
+    "ip_address": "151.101.66.217",
+    "israeli_type": "News",
+    "category": "Newspaper",
+    "severity": "HIGH",
+    "description": "Haaretz Israeli Newspaper",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:57:33.978582",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "jpost.com",
+    "ip_address": "34.149.213.158",
+    "israeli_type": "News",
+    "category": "International News",
+    "severity": "HIGH",
+    "description": "Jerusalem Post",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:57:43.960205",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "timesofisrael.com",
+    "ip_address": "104.18.29.18",
+    "israeli_type": "News",
+    "category": "Online News",
+    "severity": "MEDIUM",
+    "description": "Times of Israel",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:57:54.691486",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "israelhayom.co.il",
+    "ip_address": "23.215.0.137",
+    "israeli_type": "News",
+    "category": "Daily Newspaper",
+    "severity": "HIGH",
+    "description": "Israel Hayom",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:04.498934",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "walla.co.il",
+    "ip_address": "34.102.212.0",
+    "israeli_type": "Portal",
+    "category": "Major Portal",
+    "severity": "MEDIUM",
+    "description": "Walla! Israeli Portal",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:14.322904",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "mako.co.il",
+    "ip_address": "66.22.84.55",
+    "israeli_type": "Media",
+    "category": "TV Channel",
+    "severity": "MEDIUM",
+    "description": "Mako TV Channel",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:24.225465",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "n12.co.il",
+    "ip_address": "66.22.84.58",
+    "israeli_type": "Unknown",
+    "category": "Israeli Site",
+    "severity": "MEDIUM",
+    "description": "Israeli website: n12.co.il",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:34.216672",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "globes.co.il",
+    "ip_address": "23.32.238.81",
+    "israeli_type": "Unknown",
+    "category": "Israeli Site",
+    "severity": "MEDIUM",
+    "description": "Israeli website: globes.co.il",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:43.982996",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "calcalist.co.il",
+    "ip_address": "192.115.80.55",
+    "israeli_type": "Unknown",
+    "category": "Israeli Site",
+    "severity": "MEDIUM",
+    "description": "Israeli website: calcalist.co.il",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:58:53.850580",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "reshet.tv",
+    "ip_address": "178.86.51.139",
+    "israeli_type": "Unknown",
+    "category": "Israeli Site",
+    "severity": "MEDIUM",
+    "description": "Israeli website: reshet.tv",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:59:03.754646",
+    "status": "INFECTED - ISRAELI SITE"
+  },
+  {
+    "domain": "kan.org.il",
+    "ip_address": "172.66.40.164",
+    "israeli_type": "Unknown",
+    "category": "Israeli Site",
+    "severity": "MEDIUM",
+    "description": "Israeli website: kan.org.il",
+    "sql_servers": [],
+    "detection_time": "2025-09-13T00:59:13.401979",
+    "status": "INFECTED - ISRAELI SITE"
+  }
+]
