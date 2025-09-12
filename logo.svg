@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#008000;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <!-- خلفية -->
+  <rect width="300" height="100" fill="#1e1e1e" rx="10"/>
+  
+  <!-- رمز قاعدة البيانات -->
+  <circle cx="50" cy="50" r="25" fill="url(#grad1)" filter="url(#shadow)"/>
+  <ellipse cx="50" cy="50" rx="25" ry="8" fill="#00ff00" opacity="0.5"/>
+  <ellipse cx="50" cy="50" rx="25" ry="8" fill="#00ff00" opacity="0.3" transform="rotate(45 50 50)"/>
+  <ellipse cx="50" cy="50" rx="25" ry="8" fill="#00ff00" opacity="0.3" transform="rotate(90 50 50)"/>
+  
+  <!-- خطوط الاتصال -->
+  <line x1="75" y1="50" x2="100" y2="30" stroke="#00ff00" stroke-width="2"/>
+  <line x1="75" y1="50" x2="100" y2="50" stroke="#00ff00" stroke-width="2"/>
+  <line x1="75" y1="50" x2="100" y2="70" stroke="#00ff00" stroke-width="2"/>
+  
+  <!-- النص -->
+  <text x="110" y="45" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">
+    SQL Search Tool
+  </text>
+  <text x="110" y="65" font-family="Arial, sans-serif" font-size="12" fill="#00ff00">
+    Advanced Database Scanner
+  </text>
+  
+  <!-- مربعات البيانات -->
+  <rect x="250" y="30" width="10" height="10" fill="#00ff00" opacity="0.7"/>
+  <rect x="265" y="30" width="10" height="10" fill="#00ff00" opacity="0.5"/>
+  <rect x="250" y="45" width="10" height="10" fill="#00ff00" opacity="0.3"/>
+  <rect x="265" y="45" width="10" height="10" fill="#00ff00" opacity="0.8"/>
+  
+  <!-- إطار تزييني -->
+  <rect x="5" y="5" width="290" height="90" fill="none" stroke="#00ff00" stroke-width="1" rx="8" opacity="0.3"/>
+</svg>
