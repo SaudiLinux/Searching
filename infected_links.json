@@ -1,0 +1,236 @@
+[
+  {
+    "domain": "gov.il",
+    "main_urls": [
+      "https://gov.il",
+      "http://gov.il"
+    ],
+    "full_urls": [
+      "https://gov.il",
+      "https://www.gov.il",
+      "http://gov.il",
+      "http://www.gov.il"
+    ],
+    "ip_address": "147.237.12.20",
+    "type": "Government",
+    "severity": "HIGH",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "ynet.co.il",
+    "main_urls": [
+      "https://ynet.co.il",
+      "http://ynet.co.il"
+    ],
+    "full_urls": [
+      "https://ynet.co.il",
+      "https://www.ynet.co.il",
+      "http://ynet.co.il",
+      "http://www.ynet.co.il"
+    ],
+    "ip_address": "23.34.1.191",
+    "type": "News",
+    "severity": "HIGH",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "haaretz.co.il",
+    "main_urls": [
+      "https://haaretz.co.il",
+      "http://haaretz.co.il"
+    ],
+    "full_urls": [
+      "https://haaretz.co.il",
+      "https://www.haaretz.co.il",
+      "http://haaretz.co.il",
+      "http://www.haaretz.co.il"
+    ],
+    "ip_address": "151.101.66.217",
+    "type": "News",
+    "severity": "HIGH",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "jpost.com",
+    "main_urls": [
+      "https://jpost.com",
+      "http://jpost.com"
+    ],
+    "full_urls": [
+      "https://jpost.com",
+      "https://www.jpost.com",
+      "http://jpost.com",
+      "http://www.jpost.com"
+    ],
+    "ip_address": "34.149.213.158",
+    "type": "News",
+    "severity": "HIGH",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "timesofisrael.com",
+    "main_urls": [
+      "https://timesofisrael.com",
+      "http://timesofisrael.com"
+    ],
+    "full_urls": [
+      "https://timesofisrael.com",
+      "https://www.timesofisrael.com",
+      "http://timesofisrael.com",
+      "http://www.timesofisrael.com"
+    ],
+    "ip_address": "104.18.29.18",
+    "type": "News",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "israelhayom.co.il",
+    "main_urls": [
+      "https://israelhayom.co.il",
+      "http://israelhayom.co.il"
+    ],
+    "full_urls": [
+      "https://israelhayom.co.il",
+      "https://www.israelhayom.co.il",
+      "http://israelhayom.co.il",
+      "http://www.israelhayom.co.il"
+    ],
+    "ip_address": "23.215.0.137",
+    "type": "News",
+    "severity": "HIGH",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "walla.co.il",
+    "main_urls": [
+      "https://walla.co.il",
+      "http://walla.co.il"
+    ],
+    "full_urls": [
+      "https://walla.co.il",
+      "https://www.walla.co.il",
+      "http://walla.co.il",
+      "http://www.walla.co.il"
+    ],
+    "ip_address": "34.102.212.0",
+    "type": "Portal",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "mako.co.il",
+    "main_urls": [
+      "https://mako.co.il",
+      "http://mako.co.il"
+    ],
+    "full_urls": [
+      "https://mako.co.il",
+      "https://www.mako.co.il",
+      "http://mako.co.il",
+      "http://www.mako.co.il"
+    ],
+    "ip_address": "66.22.84.55",
+    "type": "Media",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "n12.co.il",
+    "main_urls": [
+      "https://n12.co.il",
+      "http://n12.co.il"
+    ],
+    "full_urls": [
+      "https://n12.co.il",
+      "https://www.n12.co.il",
+      "http://n12.co.il",
+      "http://www.n12.co.il"
+    ],
+    "ip_address": "66.22.84.58",
+    "type": "Unknown",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "globes.co.il",
+    "main_urls": [
+      "https://globes.co.il",
+      "http://globes.co.il"
+    ],
+    "full_urls": [
+      "https://globes.co.il",
+      "https://www.globes.co.il",
+      "http://globes.co.il",
+      "http://www.globes.co.il"
+    ],
+    "ip_address": "23.32.238.81",
+    "type": "Unknown",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "calcalist.co.il",
+    "main_urls": [
+      "https://calcalist.co.il",
+      "http://calcalist.co.il"
+    ],
+    "full_urls": [
+      "https://calcalist.co.il",
+      "https://www.calcalist.co.il",
+      "http://calcalist.co.il",
+      "http://www.calcalist.co.il"
+    ],
+    "ip_address": "192.115.80.55",
+    "type": "Unknown",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "reshet.tv",
+    "main_urls": [
+      "https://reshet.tv",
+      "http://reshet.tv"
+    ],
+    "full_urls": [
+      "https://reshet.tv",
+      "https://www.reshet.tv",
+      "http://reshet.tv",
+      "http://www.reshet.tv"
+    ],
+    "ip_address": "178.86.51.139",
+    "type": "Unknown",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  },
+  {
+    "domain": "kan.org.il",
+    "main_urls": [
+      "https://kan.org.il",
+      "http://kan.org.il"
+    ],
+    "full_urls": [
+      "https://kan.org.il",
+      "https://www.kan.org.il",
+      "http://kan.org.il",
+      "http://www.kan.org.il"
+    ],
+    "ip_address": "172.66.40.164",
+    "type": "Unknown",
+    "severity": "MEDIUM",
+    "status": "INFECTED - ISRAELI SITE",
+    "report_time": "2025-09-13T01:20:18.797904"
+  }
+]
