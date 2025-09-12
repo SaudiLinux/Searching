@@ -1,0 +1,5707 @@
+[
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.449218"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:asp?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:jsp?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:news.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:article.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:product.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:category.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:search.php?q=",
+    "domain": "site:gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:login.php?user=",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:register.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:asp?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:jsp?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:news.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:article.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:product.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:category.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:search.php?q=",
+    "domain": "site:co.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:login.php?user=",
+    "domain": "site:co.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:register.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:asp?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:jsp?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:news.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:article.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:product.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:category.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:search.php?q=",
+    "domain": "site:org.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:login.php?user=",
+    "domain": "site:org.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:register.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:asp?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:jsp?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:news.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:article.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:product.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:category.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:search.php?q=",
+    "domain": "site:ac.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:login.php?user=",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:register.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:asp?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:jsp?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:news.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:article.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:product.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:category.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:search.php?q=",
+    "domain": "site:muni.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:login.php?user=",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:register.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:asp?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:jsp?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:news.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:article.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:product.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:category.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:search.php?q=",
+    "domain": "site:idf.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:login.php?user=",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:register.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:asp?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:jsp?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:news.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:article.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:product.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:category.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:search.php?q=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.php?user=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:register.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:asp?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:jsp?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:news.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:article.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:product.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:category.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:search.php?q=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.php?user=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:register.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:asp?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:jsp?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:news.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:article.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:product.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:category.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:search.php?q=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.php?user=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:register.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:asp?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:jsp?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:news.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:article.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:product.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:category.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:search.php?q=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.php?user=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:register.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin panel\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:administrator",
+    "domain": "site:gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin/login",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin.html",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"control panel\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin area\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:cpanel",
+    "domain": "site:gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin panel\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin",
+    "domain": "site:co.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:administrator",
+    "domain": "site:co.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin/login",
+    "domain": "site:co.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin.php",
+    "domain": "site:co.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin.html",
+    "domain": "site:co.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"control panel\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin area\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:cpanel",
+    "domain": "site:co.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin panel\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin",
+    "domain": "site:org.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:administrator",
+    "domain": "site:org.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin/login",
+    "domain": "site:org.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin.php",
+    "domain": "site:org.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin.html",
+    "domain": "site:org.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"control panel\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin area\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:cpanel",
+    "domain": "site:org.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin panel\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.450216"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:administrator",
+    "domain": "site:ac.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin/login",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin.html",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"control panel\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin area\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:cpanel",
+    "domain": "site:ac.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin panel\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:administrator",
+    "domain": "site:muni.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin/login",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin.html",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"control panel\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin area\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:cpanel",
+    "domain": "site:muni.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin panel\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:administrator",
+    "domain": "site:idf.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin/login",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin.html",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"control panel\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin area\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:cpanel",
+    "domain": "site:idf.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin panel\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:administrator",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin/login",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin.html",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"control panel\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin area\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:cpanel",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin panel\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:administrator",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin/login",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin.html",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"control panel\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin area\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:cpanel",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin panel\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:administrator",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin/login",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin.html",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"control panel\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin area\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:cpanel",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin panel\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:administrator",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin/login",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin.html",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"control panel\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin area\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:cpanel",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:download.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:upload.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:file.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:document.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:readfile.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:include.php?page=",
+    "domain": "site:gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:config.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:backup.sql",
+    "domain": "site:gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:download.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:upload.php",
+    "domain": "site:co.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:file.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:document.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:readfile.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:include.php?page=",
+    "domain": "site:co.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:config.php",
+    "domain": "site:co.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:backup.sql",
+    "domain": "site:co.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il intitle:\"index of\" \"backup\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il intitle:\"index of\" \"database\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:download.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:upload.php",
+    "domain": "site:org.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:file.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:document.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:readfile.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:include.php?page=",
+    "domain": "site:org.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:config.php",
+    "domain": "site:org.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:backup.sql",
+    "domain": "site:org.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il intitle:\"index of\" \"backup\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il intitle:\"index of\" \"database\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:download.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:upload.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:file.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:document.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:readfile.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:include.php?page=",
+    "domain": "site:ac.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:config.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:backup.sql",
+    "domain": "site:ac.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il intitle:\"index of\" \"backup\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il intitle:\"index of\" \"database\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:download.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:upload.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:file.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:document.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:readfile.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:include.php?page=",
+    "domain": "site:muni.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:config.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:backup.sql",
+    "domain": "site:muni.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il intitle:\"index of\" \"backup\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il intitle:\"index of\" \"database\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:download.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:upload.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:file.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:document.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:readfile.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:include.php?page=",
+    "domain": "site:idf.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:config.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:backup.sql",
+    "domain": "site:idf.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il intitle:\"index of\" \"backup\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il intitle:\"index of\" \"database\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:download.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:upload.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:file.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:document.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:readfile.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:include.php?page=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.451217"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:config.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:backup.sql",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:download.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:upload.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:file.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:document.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:readfile.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:include.php?page=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:config.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:backup.sql",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:download.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:upload.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:file.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:document.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:readfile.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:include.php?page=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:config.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:backup.sql",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:download.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:upload.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:file.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:document.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:readfile.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:include.php?page=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:config.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:backup.sql",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il intitle:\"phpMyAdmin\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il inurl:phpmyadmin",
+    "domain": "site:gov.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il inurl:mysql",
+    "domain": "site:gov.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il intitle:\"MySQL Error\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il inurl:dbadmin",
+    "domain": "site:gov.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il inurl:database",
+    "domain": "site:gov.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il intitle:\"SQL Server\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:gov.il inurl:sqlmanager",
+    "domain": "site:gov.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il intitle:\"phpMyAdmin\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il inurl:phpmyadmin",
+    "domain": "site:co.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il inurl:mysql",
+    "domain": "site:co.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il intitle:\"MySQL Error\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il inurl:dbadmin",
+    "domain": "site:co.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il inurl:database",
+    "domain": "site:co.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il intitle:\"SQL Server\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:co.il inurl:sqlmanager",
+    "domain": "site:co.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il intitle:\"phpMyAdmin\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il inurl:phpmyadmin",
+    "domain": "site:org.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il inurl:mysql",
+    "domain": "site:org.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il intitle:\"MySQL Error\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il inurl:dbadmin",
+    "domain": "site:org.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il inurl:database",
+    "domain": "site:org.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il intitle:\"SQL Server\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:org.il inurl:sqlmanager",
+    "domain": "site:org.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il intitle:\"phpMyAdmin\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il inurl:phpmyadmin",
+    "domain": "site:ac.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il inurl:mysql",
+    "domain": "site:ac.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il intitle:\"MySQL Error\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il inurl:dbadmin",
+    "domain": "site:ac.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il inurl:database",
+    "domain": "site:ac.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il intitle:\"SQL Server\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:ac.il inurl:sqlmanager",
+    "domain": "site:ac.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il intitle:\"phpMyAdmin\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il inurl:phpmyadmin",
+    "domain": "site:muni.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il inurl:mysql",
+    "domain": "site:muni.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il intitle:\"MySQL Error\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il inurl:dbadmin",
+    "domain": "site:muni.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il inurl:database",
+    "domain": "site:muni.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il intitle:\"SQL Server\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:muni.il inurl:sqlmanager",
+    "domain": "site:muni.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il intitle:\"phpMyAdmin\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il inurl:phpmyadmin",
+    "domain": "site:idf.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il inurl:mysql",
+    "domain": "site:idf.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il intitle:\"MySQL Error\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il inurl:dbadmin",
+    "domain": "site:idf.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il inurl:database",
+    "domain": "site:idf.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il intitle:\"SQL Server\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:idf.il inurl:sqlmanager",
+    "domain": "site:idf.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il intitle:\"phpMyAdmin\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il inurl:phpmyadmin",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il inurl:mysql",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il intitle:\"MySQL Error\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il inurl:dbadmin",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il inurl:database",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il intitle:\"SQL Server\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:knesset.gov.il inurl:sqlmanager",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il intitle:\"phpMyAdmin\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il inurl:phpmyadmin",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il inurl:mysql",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il intitle:\"MySQL Error\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il inurl:dbadmin",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il inurl:database",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il intitle:\"SQL Server\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:pmo.gov.il inurl:sqlmanager",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il intitle:\"phpMyAdmin\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il inurl:phpmyadmin",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il inurl:mysql",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il intitle:\"MySQL Error\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il inurl:dbadmin",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il inurl:database",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il intitle:\"SQL Server\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mfa.gov.il inurl:sqlmanager",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il intitle:\"phpMyAdmin\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"MySQL\" \"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il inurl:phpmyadmin",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:phpmyadmin",
+    "timestamp": "2025-09-13T02:00:42.452219"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il inurl:mysql",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:mysql",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il intitle:\"Welcome to phpMyAdmin\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"Welcome to phpMyAdmin\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il intitle:\"MySQL Error\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"MySQL Error\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il inurl:dbadmin",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:dbadmin",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il inurl:database",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:database",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il intitle:\"SQL Server\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"SQL Server\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Exposed Databases",
+    "query": "site:mod.gov.il inurl:sqlmanager",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:sqlmanager",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:login.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:login.html",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"sign in\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:forgot_password.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:reset_password.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:register.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"admin login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"user login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:auth.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:login.php",
+    "domain": "site:co.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:login.html",
+    "domain": "site:co.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"sign in\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:forgot_password.php",
+    "domain": "site:co.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:reset_password.php",
+    "domain": "site:co.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:register.php",
+    "domain": "site:co.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"admin login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"user login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:auth.php",
+    "domain": "site:co.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:login.php",
+    "domain": "site:org.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:login.html",
+    "domain": "site:org.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"sign in\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:forgot_password.php",
+    "domain": "site:org.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:reset_password.php",
+    "domain": "site:org.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:register.php",
+    "domain": "site:org.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"admin login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"user login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:auth.php",
+    "domain": "site:org.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:login.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:login.html",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"sign in\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:forgot_password.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:reset_password.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:register.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"admin login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"user login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:auth.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:login.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:login.html",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"sign in\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:forgot_password.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:reset_password.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:register.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"admin login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"user login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:auth.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:login.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:login.html",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"sign in\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:forgot_password.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:reset_password.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:register.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"admin login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"user login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:auth.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.html",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"sign in\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:forgot_password.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:reset_password.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:register.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"admin login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"user login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:auth.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.html",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"sign in\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:forgot_password.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:reset_password.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:register.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"admin login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"user login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:auth.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.html",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"sign in\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:forgot_password.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:reset_password.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:register.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"admin login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"user login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:auth.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.html",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"sign in\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:forgot_password.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:reset_password.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:register.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"admin login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"user login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:auth.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:robots.txt",
+    "domain": "site:gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:.htaccess",
+    "domain": "site:gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:web.config",
+    "domain": "site:gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:php.ini",
+    "domain": "site:gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:config.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:settings.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:database.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"etc\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"config\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:robots.txt",
+    "domain": "site:co.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:.htaccess",
+    "domain": "site:co.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:web.config",
+    "domain": "site:co.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:php.ini",
+    "domain": "site:co.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:config.php",
+    "domain": "site:co.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:settings.php",
+    "domain": "site:co.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:database.php",
+    "domain": "site:co.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"etc\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"config\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:robots.txt",
+    "domain": "site:org.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:.htaccess",
+    "domain": "site:org.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:web.config",
+    "domain": "site:org.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:php.ini",
+    "domain": "site:org.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:config.php",
+    "domain": "site:org.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:settings.php",
+    "domain": "site:org.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:database.php",
+    "domain": "site:org.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.453220"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"etc\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"config\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:robots.txt",
+    "domain": "site:ac.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:.htaccess",
+    "domain": "site:ac.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:web.config",
+    "domain": "site:ac.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:php.ini",
+    "domain": "site:ac.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:config.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:settings.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:database.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"etc\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"config\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:robots.txt",
+    "domain": "site:muni.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:.htaccess",
+    "domain": "site:muni.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:web.config",
+    "domain": "site:muni.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:php.ini",
+    "domain": "site:muni.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:config.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:settings.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:database.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"etc\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"config\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:robots.txt",
+    "domain": "site:idf.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:.htaccess",
+    "domain": "site:idf.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:web.config",
+    "domain": "site:idf.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:php.ini",
+    "domain": "site:idf.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:config.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:settings.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:database.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:robots.txt",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:.htaccess",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:web.config",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:php.ini",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:config.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:settings.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:database.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:robots.txt",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:.htaccess",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:web.config",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:php.ini",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:config.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:settings.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:database.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:robots.txt",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:.htaccess",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:web.config",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:php.ini",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:config.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:settings.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:database.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:robots.txt",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:.htaccess",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:web.config",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:php.ini",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:config.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:settings.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:database.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:search.php?q=",
+    "domain": "site:gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:comment.php?text=",
+    "domain": "site:gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:contact.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:feedback.php?message=",
+    "domain": "site:gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:guestbook.php?text=",
+    "domain": "site:gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:post.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:news.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:article.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:product.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:profile.php?user=",
+    "domain": "site:gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:search.php?q=",
+    "domain": "site:co.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:comment.php?text=",
+    "domain": "site:co.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:contact.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:feedback.php?message=",
+    "domain": "site:co.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:guestbook.php?text=",
+    "domain": "site:co.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:post.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:news.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:article.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:product.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:profile.php?user=",
+    "domain": "site:co.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:search.php?q=",
+    "domain": "site:org.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:comment.php?text=",
+    "domain": "site:org.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:contact.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:feedback.php?message=",
+    "domain": "site:org.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:guestbook.php?text=",
+    "domain": "site:org.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:post.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:news.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:article.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:product.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:profile.php?user=",
+    "domain": "site:org.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:search.php?q=",
+    "domain": "site:ac.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:comment.php?text=",
+    "domain": "site:ac.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:contact.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:feedback.php?message=",
+    "domain": "site:ac.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:guestbook.php?text=",
+    "domain": "site:ac.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:post.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:news.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:article.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:product.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:profile.php?user=",
+    "domain": "site:ac.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:search.php?q=",
+    "domain": "site:muni.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:comment.php?text=",
+    "domain": "site:muni.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:contact.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:feedback.php?message=",
+    "domain": "site:muni.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:guestbook.php?text=",
+    "domain": "site:muni.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:post.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:news.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:article.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:product.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:profile.php?user=",
+    "domain": "site:muni.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:search.php?q=",
+    "domain": "site:idf.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:comment.php?text=",
+    "domain": "site:idf.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:contact.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:feedback.php?message=",
+    "domain": "site:idf.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:guestbook.php?text=",
+    "domain": "site:idf.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:post.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:news.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:article.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.454218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:product.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:profile.php?user=",
+    "domain": "site:idf.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:search.php?q=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:comment.php?text=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:contact.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:feedback.php?message=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:guestbook.php?text=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:post.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:news.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:article.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:product.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:profile.php?user=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:search.php?q=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:comment.php?text=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:contact.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:feedback.php?message=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:guestbook.php?text=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:post.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:news.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:article.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:product.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:profile.php?user=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:search.php?q=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:comment.php?text=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:contact.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:feedback.php?message=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:guestbook.php?text=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:post.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:news.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:article.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:product.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:profile.php?user=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:search.php?q=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:comment.php?text=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:contact.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:feedback.php?message=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:guestbook.php?text=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:post.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:news.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:article.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:product.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:profile.php?user=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il intitle:\"index of\" \"bak\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il intitle:\"index of\" \"sql\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il intitle:\"index of\" \"db\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:sql",
+    "domain": "site:gov.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:bak",
+    "domain": "site:gov.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:backup",
+    "domain": "site:gov.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:zip",
+    "domain": "site:gov.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:rar",
+    "domain": "site:gov.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:gov.il filetype:tar.gz",
+    "domain": "site:gov.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il intitle:\"index of\" \"backup\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il intitle:\"index of\" \"bak\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il intitle:\"index of\" \"sql\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il intitle:\"index of\" \"db\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:sql",
+    "domain": "site:co.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.455218"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:bak",
+    "domain": "site:co.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:backup",
+    "domain": "site:co.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:zip",
+    "domain": "site:co.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:rar",
+    "domain": "site:co.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:co.il filetype:tar.gz",
+    "domain": "site:co.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il intitle:\"index of\" \"backup\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il intitle:\"index of\" \"bak\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il intitle:\"index of\" \"sql\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il intitle:\"index of\" \"db\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:sql",
+    "domain": "site:org.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:bak",
+    "domain": "site:org.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:backup",
+    "domain": "site:org.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:zip",
+    "domain": "site:org.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:rar",
+    "domain": "site:org.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:org.il filetype:tar.gz",
+    "domain": "site:org.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il intitle:\"index of\" \"backup\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il intitle:\"index of\" \"bak\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il intitle:\"index of\" \"sql\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il intitle:\"index of\" \"db\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:sql",
+    "domain": "site:ac.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:bak",
+    "domain": "site:ac.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.456243"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:backup",
+    "domain": "site:ac.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:zip",
+    "domain": "site:ac.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:rar",
+    "domain": "site:ac.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:ac.il filetype:tar.gz",
+    "domain": "site:ac.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il intitle:\"index of\" \"backup\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il intitle:\"index of\" \"bak\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il intitle:\"index of\" \"sql\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il intitle:\"index of\" \"db\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:sql",
+    "domain": "site:muni.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:bak",
+    "domain": "site:muni.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:backup",
+    "domain": "site:muni.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:zip",
+    "domain": "site:muni.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:rar",
+    "domain": "site:muni.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:muni.il filetype:tar.gz",
+    "domain": "site:muni.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il intitle:\"index of\" \"backup\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il intitle:\"index of\" \"bak\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il intitle:\"index of\" \"sql\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il intitle:\"index of\" \"db\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:sql",
+    "domain": "site:idf.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:bak",
+    "domain": "site:idf.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:backup",
+    "domain": "site:idf.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:zip",
+    "domain": "site:idf.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:rar",
+    "domain": "site:idf.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:idf.il filetype:tar.gz",
+    "domain": "site:idf.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"bak\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"sql\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"db\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:sql",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:bak",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:backup",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:zip",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:rar",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:knesset.gov.il filetype:tar.gz",
+    "domain": "site:knesset.gov.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"bak\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"sql\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"db\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:sql",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:bak",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:backup",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:zip",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:rar",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:pmo.gov.il filetype:tar.gz",
+    "domain": "site:pmo.gov.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.458237"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"bak\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"sql\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"db\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:sql",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:bak",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:backup",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:zip",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:rar",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mfa.gov.il filetype:tar.gz",
+    "domain": "site:mfa.gov.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"bak\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"bak\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"sql\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"sql\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"db\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"db\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:sql",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:sql",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:bak",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:bak",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:backup",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:backup",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:zip",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:zip",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:rar",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:rar",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Backup Files",
+    "query": "site:mod.gov.il filetype:tar.gz",
+    "domain": "site:mod.gov.il",
+    "dork": "filetype:tar.gz",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_military",
+    "query": "site:idf.il inurl:admin",
+    "domain": "custom",
+    "dork": "site:idf.il inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_military",
+    "query": "site:mod.gov.il intitle:\"confidential\"",
+    "domain": "custom",
+    "dork": "site:mod.gov.il intitle:\"confidential\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_military",
+    "query": "site:gov.il filetype:pdf \"classified\"",
+    "domain": "custom",
+    "dork": "site:gov.il filetype:pdf \"classified\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_military",
+    "query": "site:mil.il inurl:documents",
+    "domain": "custom",
+    "dork": "site:mil.il inurl:documents",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_military",
+    "query": "site:gov.il inurl:secure",
+    "domain": "custom",
+    "dork": "site:gov.il inurl:secure",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_government",
+    "query": "site:pmo.gov.il inurl:admin",
+    "domain": "custom",
+    "dork": "site:pmo.gov.il inurl:admin",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_government",
+    "query": "site:knesset.gov.il filetype:xls",
+    "domain": "custom",
+    "dork": "site:knesset.gov.il filetype:xls",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_government",
+    "query": "site:mfa.gov.il intitle:\"database\"",
+    "domain": "custom",
+    "dork": "site:mfa.gov.il intitle:\"database\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_government",
+    "query": "site:justice.gov.il inurl:login",
+    "domain": "custom",
+    "dork": "site:justice.gov.il inurl:login",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_government",
+    "query": "site:police.gov.il filetype:pdf",
+    "domain": "custom",
+    "dork": "site:police.gov.il filetype:pdf",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_intelligence",
+    "query": "site:gov.il \"Mossad\"",
+    "domain": "custom",
+    "dork": "site:gov.il \"Mossad\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_intelligence",
+    "query": "site:gov.il \"Shin Bet\"",
+    "domain": "custom",
+    "dork": "site:gov.il \"Shin Bet\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_intelligence",
+    "query": "site:gov.il \"intelligence\"",
+    "domain": "custom",
+    "dork": "site:gov.il \"intelligence\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_intelligence",
+    "query": "site:gov.il \"classified\"",
+    "domain": "custom",
+    "dork": "site:gov.il \"classified\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  },
+  {
+    "category": "Custom - israeli_intelligence",
+    "query": "site:gov.il \"secret\"",
+    "domain": "custom",
+    "dork": "site:gov.il \"secret\"",
+    "timestamp": "2025-09-13T02:00:42.459228"
+  }
+]
