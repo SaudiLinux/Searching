@@ -1,0 +1,702 @@
+[
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:robots.txt",
+    "domain": "site:gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:.htaccess",
+    "domain": "site:gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:web.config",
+    "domain": "site:gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:php.ini",
+    "domain": "site:gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:config.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:settings.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:gov.il inurl:database.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"etc\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il intitle:\"index of\" \"config\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:robots.txt",
+    "domain": "site:co.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:.htaccess",
+    "domain": "site:co.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:web.config",
+    "domain": "site:co.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:php.ini",
+    "domain": "site:co.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:config.php",
+    "domain": "site:co.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:settings.php",
+    "domain": "site:co.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:co.il inurl:database.php",
+    "domain": "site:co.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"etc\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il intitle:\"index of\" \"config\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:robots.txt",
+    "domain": "site:org.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:.htaccess",
+    "domain": "site:org.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:web.config",
+    "domain": "site:org.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:php.ini",
+    "domain": "site:org.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:config.php",
+    "domain": "site:org.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:settings.php",
+    "domain": "site:org.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:org.il inurl:database.php",
+    "domain": "site:org.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"etc\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il intitle:\"index of\" \"config\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:robots.txt",
+    "domain": "site:ac.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:.htaccess",
+    "domain": "site:ac.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:web.config",
+    "domain": "site:ac.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:php.ini",
+    "domain": "site:ac.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:config.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:settings.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:ac.il inurl:database.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"etc\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il intitle:\"index of\" \"config\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:robots.txt",
+    "domain": "site:muni.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:.htaccess",
+    "domain": "site:muni.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:web.config",
+    "domain": "site:muni.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:php.ini",
+    "domain": "site:muni.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:config.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:settings.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:muni.il inurl:database.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"etc\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il intitle:\"index of\" \"config\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:robots.txt",
+    "domain": "site:idf.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:.htaccess",
+    "domain": "site:idf.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:web.config",
+    "domain": "site:idf.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:php.ini",
+    "domain": "site:idf.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:config.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:settings.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:idf.il inurl:database.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:robots.txt",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:.htaccess",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:web.config",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:php.ini",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:config.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:settings.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:knesset.gov.il inurl:database.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:robots.txt",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:.htaccess",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:web.config",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:php.ini",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:config.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:settings.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:pmo.gov.il inurl:database.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:robots.txt",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:.htaccess",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:web.config",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:php.ini",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:config.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:settings.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mfa.gov.il inurl:database.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"passwd\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"passwd\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"etc\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"etc\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il intitle:\"index of\" \"config\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"config\"",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:robots.txt",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:robots.txt",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:.htaccess",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:.htaccess",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:web.config",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:web.config",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:php.ini",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:php.ini",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:config.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:settings.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:settings.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  },
+  {
+    "category": "Sensitive Files",
+    "query": "site:mod.gov.il inurl:database.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:database.php",
+    "timestamp": "2025-09-14T18:41:03.339544"
+  }
+]

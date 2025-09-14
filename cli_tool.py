@@ -1,19 +1,29 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-أداة بحث SQL المتقدمة - نسخة سطر الأوامر
-تم تطويرها بواسطة: SayerLinux
-الموقع: https://github.com/SaudiLinux
-البريد: SayerLinux1@gmail.com
+واجهة سطر الأوامر - مجموعة أدوات الأمن السيبراني الإسرائيلية
+النسخة العربية
 """
 
-import socket
-import json
-import os
+import argparse
 import sys
-from datetime import datetime
-import threading
+import os
+from pathlib import Path
+import json
 import time
+from datetime import datetime
+from rich.console import Console
+from rich.table import Table
+from rich.progress import Progress, SpinnerColumn, TextColumn
+from rich.panel import Panel
+
+# استيراد الأدوات مباشرة من المجلد الحالي
+from infected_links_report import InfectedLinksReport
+from exploit_tool import ExploitTool
+from google_dork_tool import GoogleDorkTool
+from vulnerability_links_viewer import VulnerabilityLinksViewer
+from sqli_scanner_tool import SQLiScannerTool
+from show_infected_sites import ShowInfectedSites
+from install import Installer
 
 class CLISQLSearchTool:
     def __init__(self):

@@ -1,0 +1,702 @@
+[
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin panel\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:administrator",
+    "domain": "site:gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin/login",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:admin.html",
+    "domain": "site:gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"control panel\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il intitle:\"admin area\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:gov.il inurl:cpanel",
+    "domain": "site:gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin panel\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin",
+    "domain": "site:co.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:administrator",
+    "domain": "site:co.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin/login",
+    "domain": "site:co.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin.php",
+    "domain": "site:co.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:admin.html",
+    "domain": "site:co.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"control panel\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il intitle:\"admin area\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:co.il inurl:cpanel",
+    "domain": "site:co.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin panel\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin",
+    "domain": "site:org.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:administrator",
+    "domain": "site:org.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin/login",
+    "domain": "site:org.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin.php",
+    "domain": "site:org.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:admin.html",
+    "domain": "site:org.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"control panel\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il intitle:\"admin area\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:org.il inurl:cpanel",
+    "domain": "site:org.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin panel\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:administrator",
+    "domain": "site:ac.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin/login",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:admin.html",
+    "domain": "site:ac.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"control panel\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il intitle:\"admin area\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:ac.il inurl:cpanel",
+    "domain": "site:ac.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin panel\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:administrator",
+    "domain": "site:muni.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.340903"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin/login",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:admin.html",
+    "domain": "site:muni.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"control panel\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il intitle:\"admin area\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:muni.il inurl:cpanel",
+    "domain": "site:muni.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin panel\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:administrator",
+    "domain": "site:idf.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin/login",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:admin.html",
+    "domain": "site:idf.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"control panel\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il intitle:\"admin area\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:idf.il inurl:cpanel",
+    "domain": "site:idf.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin panel\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:administrator",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin/login",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:admin.html",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"control panel\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il intitle:\"admin area\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:knesset.gov.il inurl:cpanel",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin panel\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:administrator",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin/login",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:admin.html",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"control panel\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il intitle:\"admin area\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:pmo.gov.il inurl:cpanel",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin panel\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:administrator",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin/login",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:admin.html",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"control panel\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il intitle:\"admin area\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mfa.gov.il inurl:cpanel",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin panel\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:administrator",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:administrator",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin/login",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin/login",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin.php",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:admin.html",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:admin.html",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"control panel\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"control panel\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il intitle:\"admin area\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin area\"",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  },
+  {
+    "category": "Admin Panels",
+    "query": "site:mod.gov.il inurl:cpanel",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:cpanel",
+    "timestamp": "2025-09-14T18:38:28.341904"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:asp?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:jsp?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:news.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:article.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:product.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:category.php?id=",
+    "domain": "site:gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:search.php?q=",
+    "domain": "site:gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:login.php?user=",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:gov.il inurl:register.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:asp?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:jsp?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:news.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:article.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:product.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:category.php?id=",
+    "domain": "site:co.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:search.php?q=",
+    "domain": "site:co.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:login.php?user=",
+    "domain": "site:co.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:co.il inurl:register.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:asp?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:jsp?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:news.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:article.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:product.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:category.php?id=",
+    "domain": "site:org.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:search.php?q=",
+    "domain": "site:org.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:login.php?user=",
+    "domain": "site:org.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:org.il inurl:register.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:asp?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:jsp?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:news.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:article.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:product.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:category.php?id=",
+    "domain": "site:ac.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:search.php?q=",
+    "domain": "site:ac.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:login.php?user=",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:ac.il inurl:register.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:asp?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:jsp?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:news.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:article.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:product.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:category.php?id=",
+    "domain": "site:muni.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:search.php?q=",
+    "domain": "site:muni.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:login.php?user=",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:muni.il inurl:register.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:asp?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:jsp?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:news.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:article.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:product.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:category.php?id=",
+    "domain": "site:idf.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:search.php?q=",
+    "domain": "site:idf.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:login.php?user=",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:idf.il inurl:register.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:asp?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:jsp?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:news.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:article.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:product.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:category.php?id=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:search.php?q=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.php?user=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:register.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:asp?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:jsp?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:news.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:article.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:product.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:category.php?id=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:search.php?q=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.php?user=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.053595"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:register.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:asp?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:jsp?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:news.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:article.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:product.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:category.php?id=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:search.php?q=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.php?user=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:register.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:asp?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:asp?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:jsp?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:jsp?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:news.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:news.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:article.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:article.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:product.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:product.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:category.php?id=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:category.php?id=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:search.php?q=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.php?user=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.php?user=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  },
+  {
+    "category": "SQL Injection Vulnerabilities",
+    "query": "site:mod.gov.il inurl:register.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:register.php?name=",
+    "timestamp": "2025-09-14T18:37:23.054597"
+  }
+]

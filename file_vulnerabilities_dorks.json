@@ -1,0 +1,702 @@
+[
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:download.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:upload.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:file.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:document.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:readfile.php?file=",
+    "domain": "site:gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:include.php?page=",
+    "domain": "site:gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:config.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il inurl:backup.sql",
+    "domain": "site:gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:download.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:upload.php",
+    "domain": "site:co.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:file.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:document.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:readfile.php?file=",
+    "domain": "site:co.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:include.php?page=",
+    "domain": "site:co.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:config.php",
+    "domain": "site:co.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il inurl:backup.sql",
+    "domain": "site:co.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il intitle:\"index of\" \"backup\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:co.il intitle:\"index of\" \"database\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:download.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:upload.php",
+    "domain": "site:org.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:file.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:document.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:readfile.php?file=",
+    "domain": "site:org.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:include.php?page=",
+    "domain": "site:org.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:config.php",
+    "domain": "site:org.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il inurl:backup.sql",
+    "domain": "site:org.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il intitle:\"index of\" \"backup\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:org.il intitle:\"index of\" \"database\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:download.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:upload.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:file.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:document.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:readfile.php?file=",
+    "domain": "site:ac.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:include.php?page=",
+    "domain": "site:ac.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:config.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il inurl:backup.sql",
+    "domain": "site:ac.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il intitle:\"index of\" \"backup\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:ac.il intitle:\"index of\" \"database\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:download.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:upload.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:file.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:document.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:readfile.php?file=",
+    "domain": "site:muni.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:include.php?page=",
+    "domain": "site:muni.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:config.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il inurl:backup.sql",
+    "domain": "site:muni.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il intitle:\"index of\" \"backup\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:muni.il intitle:\"index of\" \"database\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:download.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:upload.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:file.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:document.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:readfile.php?file=",
+    "domain": "site:idf.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:include.php?page=",
+    "domain": "site:idf.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:config.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il inurl:backup.sql",
+    "domain": "site:idf.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il intitle:\"index of\" \"backup\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:idf.il intitle:\"index of\" \"database\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:download.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:upload.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:file.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:document.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:readfile.php?file=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:include.php?page=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:config.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:backup.sql",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:download.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:upload.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:file.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:document.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:readfile.php?file=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:include.php?page=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:config.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:backup.sql",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.924581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:download.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:upload.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:file.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:document.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:readfile.php?file=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:include.php?page=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:config.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:backup.sql",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:download.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:download.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:upload.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:upload.php",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:file.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:file.php?name=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:document.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:document.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:readfile.php?file=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:readfile.php?file=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:include.php?page=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:include.php?page=",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:config.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:config.php",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il inurl:backup.sql",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:backup.sql",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"index of\" \"backup\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"backup\"",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  },
+  {
+    "category": "File Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"index of\" \"database\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"index of\" \"database\"",
+    "timestamp": "2025-09-14T18:40:15.925581"
+  }
+]

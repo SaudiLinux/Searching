@@ -16,17 +16,62 @@ from rich.table import Table
 from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.panel import Panel
 
-# Add tools directory to path
-sys.path.insert(0, str(Path(__file__).parent))
+# Import tools directly from current directory
+try:
+    from infected_links_report import InfectedLinksReport
+except ImportError:
+    class InfectedLinksReport:
+        def run_cli(self, args=None):
+            print("Infected Links Report tool not available")
+            return True
 
-# Import tools
-from tools.infected_links_report import InfectedLinksReport
-from tools.exploit_tool import ExploitTool
-from tools.google_dork_tool import GoogleDorkTool
-from tools.vulnerability_links_viewer import VulnerabilityLinksViewer
-from tools.sqli_scanner_tool import SQLiScannerTool
-from tools.show_infected_sites import ShowInfectedSites
-from tools.installer import Installer
+try:
+    from exploit_tool import ExploitTool
+except ImportError:
+    class ExploitTool:
+        def run_cli(self, args=None):
+            print("Exploit Tool not available")
+            return True
+
+try:
+    from google_dork_tool import GoogleDorkTool
+except ImportError:
+    class GoogleDorkTool:
+        def run_cli(self, args=None):
+            print("Google Dork Tool not available")
+            return True
+
+try:
+    from vulnerability_links_viewer import VulnerabilityLinksViewer
+except ImportError:
+    class VulnerabilityLinksViewer:
+        def run_cli(self, args=None):
+            print("Vulnerability Links Viewer not available")
+            return True
+
+try:
+    from sqli_scanner_tool import SQLiScannerTool
+except ImportError:
+    class SQLiScannerTool:
+        def run_cli(self, args=None):
+            print("SQLi Scanner Tool not available")
+            return True
+
+try:
+    from show_infected_sites import ShowInfectedSites
+except ImportError:
+    class ShowInfectedSites:
+        def run_cli(self, args=None):
+            print("Show Infected Sites tool not available")
+            return True
+
+try:
+    from install import Installer
+except ImportError:
+    class Installer:
+        def run_cli(self, args=None):
+            print("Installer tool not available")
+            return True
 
 console = Console()
 

@@ -1,0 +1,702 @@
+[
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:search.php?q=",
+    "domain": "site:gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:comment.php?text=",
+    "domain": "site:gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:contact.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:feedback.php?message=",
+    "domain": "site:gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:guestbook.php?text=",
+    "domain": "site:gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:post.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:news.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:article.php?title=",
+    "domain": "site:gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:product.php?name=",
+    "domain": "site:gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:gov.il inurl:profile.php?user=",
+    "domain": "site:gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:search.php?q=",
+    "domain": "site:co.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:comment.php?text=",
+    "domain": "site:co.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:contact.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:feedback.php?message=",
+    "domain": "site:co.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:guestbook.php?text=",
+    "domain": "site:co.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:post.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:news.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:article.php?title=",
+    "domain": "site:co.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:product.php?name=",
+    "domain": "site:co.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:co.il inurl:profile.php?user=",
+    "domain": "site:co.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:search.php?q=",
+    "domain": "site:org.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:comment.php?text=",
+    "domain": "site:org.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:contact.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:feedback.php?message=",
+    "domain": "site:org.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:guestbook.php?text=",
+    "domain": "site:org.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:post.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:news.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:article.php?title=",
+    "domain": "site:org.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:product.php?name=",
+    "domain": "site:org.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:org.il inurl:profile.php?user=",
+    "domain": "site:org.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:search.php?q=",
+    "domain": "site:ac.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:comment.php?text=",
+    "domain": "site:ac.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:contact.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:feedback.php?message=",
+    "domain": "site:ac.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:guestbook.php?text=",
+    "domain": "site:ac.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:post.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:news.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:article.php?title=",
+    "domain": "site:ac.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:product.php?name=",
+    "domain": "site:ac.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:ac.il inurl:profile.php?user=",
+    "domain": "site:ac.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:search.php?q=",
+    "domain": "site:muni.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:comment.php?text=",
+    "domain": "site:muni.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:contact.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:feedback.php?message=",
+    "domain": "site:muni.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:guestbook.php?text=",
+    "domain": "site:muni.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:post.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:news.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:article.php?title=",
+    "domain": "site:muni.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:product.php?name=",
+    "domain": "site:muni.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:muni.il inurl:profile.php?user=",
+    "domain": "site:muni.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:search.php?q=",
+    "domain": "site:idf.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:comment.php?text=",
+    "domain": "site:idf.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:contact.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:feedback.php?message=",
+    "domain": "site:idf.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:guestbook.php?text=",
+    "domain": "site:idf.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:post.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:news.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:article.php?title=",
+    "domain": "site:idf.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:product.php?name=",
+    "domain": "site:idf.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:idf.il inurl:profile.php?user=",
+    "domain": "site:idf.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:search.php?q=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:comment.php?text=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:contact.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:feedback.php?message=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:guestbook.php?text=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:post.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:news.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:article.php?title=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:product.php?name=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:profile.php?user=",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:search.php?q=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:comment.php?text=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:contact.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:feedback.php?message=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:guestbook.php?text=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:post.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:news.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:article.php?title=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:product.php?name=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:profile.php?user=",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:search.php?q=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:comment.php?text=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:contact.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:feedback.php?message=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:guestbook.php?text=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:post.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:news.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:article.php?title=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:product.php?name=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:profile.php?user=",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:search.php?q=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:search.php?q=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:comment.php?text=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:comment.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:contact.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:contact.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:feedback.php?message=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:feedback.php?message=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:guestbook.php?text=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:guestbook.php?text=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:post.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:post.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:news.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:news.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:article.php?title=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:article.php?title=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:product.php?name=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:product.php?name=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  },
+  {
+    "category": "XSS Vulnerabilities",
+    "query": "site:mod.gov.il inurl:profile.php?user=",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:profile.php?user=",
+    "timestamp": "2025-09-14T18:41:32.940808"
+  }
+]

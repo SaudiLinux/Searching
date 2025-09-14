@@ -1,0 +1,702 @@
+[
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:login.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:login.html",
+    "domain": "site:gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"sign in\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:forgot_password.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:reset_password.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:register.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"admin login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il intitle:\"user login\"",
+    "domain": "site:gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:gov.il inurl:auth.php",
+    "domain": "site:gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:login.php",
+    "domain": "site:co.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:login.html",
+    "domain": "site:co.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"sign in\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:forgot_password.php",
+    "domain": "site:co.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:reset_password.php",
+    "domain": "site:co.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:register.php",
+    "domain": "site:co.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"admin login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il intitle:\"user login\"",
+    "domain": "site:co.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:co.il inurl:auth.php",
+    "domain": "site:co.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:login.php",
+    "domain": "site:org.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:login.html",
+    "domain": "site:org.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"sign in\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:forgot_password.php",
+    "domain": "site:org.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:reset_password.php",
+    "domain": "site:org.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:register.php",
+    "domain": "site:org.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"admin login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il intitle:\"user login\"",
+    "domain": "site:org.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:org.il inurl:auth.php",
+    "domain": "site:org.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:login.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:login.html",
+    "domain": "site:ac.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"sign in\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:forgot_password.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:reset_password.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:register.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"admin login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il intitle:\"user login\"",
+    "domain": "site:ac.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.432188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:ac.il inurl:auth.php",
+    "domain": "site:ac.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:login.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:login.html",
+    "domain": "site:muni.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"sign in\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:forgot_password.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:reset_password.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:register.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"admin login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il intitle:\"user login\"",
+    "domain": "site:muni.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:muni.il inurl:auth.php",
+    "domain": "site:muni.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:login.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:login.html",
+    "domain": "site:idf.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"sign in\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:forgot_password.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:reset_password.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:register.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"admin login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il intitle:\"user login\"",
+    "domain": "site:idf.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:idf.il inurl:auth.php",
+    "domain": "site:idf.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:login.html",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"sign in\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:forgot_password.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:reset_password.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:register.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"admin login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il intitle:\"user login\"",
+    "domain": "site:knesset.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:knesset.gov.il inurl:auth.php",
+    "domain": "site:knesset.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:login.html",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"sign in\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:forgot_password.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:reset_password.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:register.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"admin login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il intitle:\"user login\"",
+    "domain": "site:pmo.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:pmo.gov.il inurl:auth.php",
+    "domain": "site:pmo.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:login.html",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"sign in\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:forgot_password.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:reset_password.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:register.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"admin login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il intitle:\"user login\"",
+    "domain": "site:mfa.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mfa.gov.il inurl:auth.php",
+    "domain": "site:mfa.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:login.html",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:login.html",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"sign in\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"sign in\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:forgot_password.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:forgot_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:reset_password.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:reset_password.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:register.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:register.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"admin login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"admin login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il intitle:\"user login\"",
+    "domain": "site:mod.gov.il",
+    "dork": "intitle:\"user login\"",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  },
+  {
+    "category": "Login Vulnerabilities",
+    "query": "site:mod.gov.il inurl:auth.php",
+    "domain": "site:mod.gov.il",
+    "dork": "inurl:auth.php",
+    "timestamp": "2025-09-14T18:40:51.433188"
+  }
+]
