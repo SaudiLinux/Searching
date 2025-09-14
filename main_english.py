@@ -16,13 +16,9 @@ from rich.table import Table
 sys.path.insert(0, str(Path(__file__).parent))
 
 # Import new tools
-from tools.infected_links_report import InfectedLinksReport
-from tools.exploit_tool import ExploitTool
-from tools.google_dork_tool import GoogleDorkTool
-from tools.vulnerability_links_viewer import VulnerabilityLinksViewer
-from tools.sqli_scanner_tool import SQLiScannerTool
-from tools.show_infected_sites import ShowInfectedSites
-from tools.installer import Installer
+from tools.infected_links_report import InfectedLinksReporter
+from tools.exploit_tool import IsraeliExploitationTool
+from tools.google_dork_tool import GoogleDorkingTool
 
 console = Console()
 
@@ -32,13 +28,9 @@ class IsraeliCyberSecuritySuiteEnglish:
     def __init__(self):
         self.console = Console()
         self.tools = {
-            1: {"name": "Display Israeli Infected Sites", "tool": InfectedLinksReport},
-            2: {"name": "Security Vulnerability Testing & Exploitation", "tool": ExploitTool},
-            3: {"name": "Advanced Google Dorking Search", "tool": GoogleDorkTool},
-            4: {"name": "Vulnerability Links with Test URLs", "tool": VulnerabilityLinksViewer},
-            5: {"name": "SQL Injection Scanning for Israeli Sites", "tool": SQLiScannerTool},
-            6: {"name": "Quick Display of Infected Sites", "tool": ShowInfectedSites},
-            7: {"name": "Install/Update Tools", "tool": Installer},
+            1: {"name": "Display Israeli Infected Sites", "tool": InfectedLinksReporter},
+            2: {"name": "Security Vulnerability Testing & Exploitation", "tool": IsraeliExploitationTool},
+            3: {"name": "Advanced Google Dorking Search", "tool": GoogleDorkingTool},
         }
     
     def display_banner(self):
@@ -62,21 +54,21 @@ class IsraeliCyberSecuritySuiteEnglish:
         for key, tool_info in self.tools.items():
             table.add_row(str(key), tool_info["name"], "✅ Ready")
         
-        table.add_row("8", "Exit", "🚪")
+        table.add_row("4", "Exit", "🚪")
         
         self.console.print(table)
     
     def get_user_choice(self):
         """Get user choice"""
         try:
-            choice = self.console.input("\n[bold cyan]Select tool (1-8): [/bold cyan]").strip()
+            choice = self.console.input("\n[bold cyan]Select tool (1-4): [/bold cyan]").strip()
             return int(choice)
         except ValueError:
             return None
     
     def run_tool(self, choice):
         """Run selected tool"""
-        if choice == 8:
+        if choice == 4:
             self.console.print("\n[bold green]👋 Thank you for using Israeli Cyber Security Tools![/bold green]")
             return False
         
@@ -95,7 +87,7 @@ class IsraeliCyberSecuritySuiteEnglish:
                 self.console.print(f"\n[bold red]❌ Error running tool: {str(e)}[/bold red]")
                 
         else:
-            self.console.print("\n[bold red]❌ Invalid choice. Please select a number from 1 to 8.[/bold red]")
+            self.console.print("\n[bold red]❌ Invalid choice. Please select a number from 1 to 4.[/bold red]")
         
         return True
     

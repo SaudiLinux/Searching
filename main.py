@@ -19,14 +19,10 @@ from rich.align import Align
 # إضافة مسار المكتبات المطلوبة
 sys.path.insert(0, str(Path(__file__).parent))
 
-# استيراد الأدوات الجديدة
-from tools.infected_links_report import InfectedLinksReport
-from tools.exploit_tool import ExploitTool
-from tools.google_dork_tool import GoogleDorkTool
-from tools.vulnerability_links_viewer import VulnerabilityLinksViewer
-from tools.sqli_scanner_tool import SQLiScannerTool
-from tools.show_infected_sites import ShowInfectedSites
-from tools.installer import Installer
+# استيراد الأدوات المتوفرة فقط
+from tools.infected_links_report import InfectedLinksReporter
+from tools.exploit_tool import IsraeliExploitationTool
+from tools.google_dork_tool import GoogleDorkingTool
 
 console = Console()
 
@@ -36,13 +32,9 @@ class IsraeliCyberSecuritySuite:
     def __init__(self):
         self.console = Console()
         self.tools = {
-            1: {"name": "عرض المواقع الإسرائيلية المصابة", "tool": InfectedLinksReport},
-            2: {"name": "اختبار الثغرات الأمنية والاستغلال", "tool": ExploitTool},
-            3: {"name": "أداة بحث Google المتقدمة", "tool": GoogleDorkTool},
-            4: {"name": "عرض روابط الثغرات مع URLs للاختبار", "tool": VulnerabilityLinksViewer},
-            5: {"name": "فحص SQL Injection للمواقع الإسرائيلية", "tool": SQLiScannerTool},
-            6: {"name": "عرض سريع للمواقع المصابة", "tool": ShowInfectedSites},
-            7: {"name": "تثبيت/تحديث الأدوات", "tool": Installer},
+            1: {"name": "عرض المواقع الإسرائيلية المصابة", "tool": InfectedLinksReporter},
+            2: {"name": "اختبار الثغرات الأمنية والاستغلال", "tool": IsraeliExploitationTool},
+            3: {"name": "أداة بحث Google المتقدمة", "tool": GoogleDorkingTool},
         }
     
     def display_banner(self):
@@ -66,21 +58,21 @@ class IsraeliCyberSecuritySuite:
         for key, tool_info in self.tools.items():
             table.add_row(str(key), tool_info["name"], "✅ جاهز")
         
-        table.add_row("8", "الخروج", "🚪")
+        table.add_row("4", "الخروج", "🚪")
         
         self.console.print(table)
     
     def get_user_choice(self):
         """الحصول على اختيار المستخدم"""
         try:
-            choice = self.console.input("\n[bold cyan]اختر أداة (1-8): [/bold cyan]").strip()
+            choice = self.console.input("\n[bold cyan]اختر أداة (1-4): [/bold cyan]").strip()
             return int(choice)
         except ValueError:
             return None
-    
+
     def run_tool(self, choice):
         """تشغيل الأداة المختارة"""
-        if choice == 8:
+        if choice == 4:
             self.console.print("\n[bold green]👋 شكراً لاستخدام مجموعة أدوات الأمن السيبراني الإسرائيلية![/bold green]")
             return False
         
@@ -99,7 +91,7 @@ class IsraeliCyberSecuritySuite:
                 self.console.print(f"\n[bold red]❌ خطأ في تشغيل الأداة: {str(e)}[/bold red]")
                 
         else:
-            self.console.print("\n[bold red]❌ اختيار غير صالح. يرجى اختيار رقم من 1 إلى 8.[/bold red]")
+            self.console.print("\n[bold red]❌ اختيار غير صالح. يرجى اختيار رقم من 1 إلى 4.[/bold red]")
         
         return True
     
@@ -126,7 +118,7 @@ class IsraeliCyberSecuritySuite:
         
         if missing_files:
             self.console.print(f"\n[bold yellow]⚠️  ملفات مفقودة: {', '.join(missing_files)}[/bold yellow]")
-            self.console.print("[bold cyan]💡 استخدم أداة التثبيت (رقم 7) لتثبيت الملفات المطلوبة[/bold cyan]")
+            self.console.print("[bold cyan]💡 تأكد من وجود جميع الملفات المطلوبة[/bold cyan]")
         
         return True
     
