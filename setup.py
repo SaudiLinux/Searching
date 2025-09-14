@@ -1,47 +1,40 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-ملف إعداد أداة بحث SQL المتقدمة
+Israeli Cyber Security Tools Suite - Advanced Setup Configuration
 """
 
+import os
+import sys
 from setuptools import setup, find_packages
+from pathlib import Path
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+if sys.version_info < (3, 7):
+    raise RuntimeError("Python 3.7+ required")
 
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+def read_requirements():
+    req_file = Path(__file__).parent / "requirements.txt"
+    if req_file.exists():
+        with open(req_file, 'r', encoding='utf-8') as f:
+            return [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    return []
 
 setup(
-    name="sql-search-tool",
-    version="1.0.0",
-    author="SayerLinux",
-    author_email="SayerLinux1@gmail.com",
-    description="أداة بحث SQL المتقدمة لمسح خوادم قواعد البيانات",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/SaudiLinux",
-    packages=find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-        "Development Status :: 5 - Production/Stable",
-        "Intended Audience :: Developers",
-        "Intended Audience :: System Administrators",
-        "Topic :: Security",
-        "Topic :: Database",
-        "Topic :: Internet",
-    ],
+    name="israeli-cyber-security-suite",
+    version="2.0.0",
+    description="Advanced Israeli Cyber Security Tools Suite",
+    long_description="Comprehensive security testing tools for Israeli sites",
     python_requires=">=3.7",
-    install_requires=requirements,
+    install_requires=read_requirements(),
+    packages=find_packages(),
+    include_package_data=True,
     entry_points={
-        "console_scripts": [
-            "sql-search=main:main",
+        'console_scripts': [
+            'israeli-security=main:main',
+            'israeli-security-cli=cli_tool:main',
         ],
     },
-    include_package_data=True,
-    package_data={
-        "": ["*.svg", "*.md"],
-    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Topic :: Security",
+    ],
 )

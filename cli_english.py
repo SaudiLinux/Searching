@@ -1,317 +1,266 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Advanced SQL Search Tool - English CLI Version
-Developed by: SayerLinux
-Website: https://github.com/SaudiLinux
-Email: SayerLinux1@gmail.com
+Command Line Interface - Israeli Cyber Security Tools Suite
+English Interface Version
 """
 
-import socket
-import threading
-import json
-import os
+import argparse
 import sys
+import os
+from pathlib import Path
+import json
 import time
 from datetime import datetime
+from rich.console import Console
+from rich.table import Table
+from rich.progress import Progress, SpinnerColumn, TextColumn
+from rich.panel import Panel
 
-class AdvancedSQLSearchToolCLI:
+# Add tools directory to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+# Import tools
+from tools.infected_links_report import InfectedLinksReport
+from tools.exploit_tool import ExploitTool
+from tools.google_dork_tool import GoogleDorkTool
+from tools.vulnerability_links_viewer import VulnerabilityLinksViewer
+from tools.sqli_scanner_tool import SQLiScannerTool
+from tools.show_infected_sites import ShowInfectedSites
+from tools.installer import Installer
+
+console = Console()
+
+class CLIEnglish:
+    """Advanced CLI for Israeli Cyber Security Tools Suite - English"""
+    
     def __init__(self):
-        self.results = []
-        self.searching = False
-        self.current_domain = ""
-        self.load_israeli_domains()
-        
-    def load_israeli_domains(self):
-        """Load Israeli domains database"""
-        self.israeli_domains = [
-            '.il', '.co.il', '.org.il', '.gov.il', '.ac.il', '.muni.il',
-            '.idf.il', '.mod.gov.il', '.mfa.gov.il', '.knesset.gov.il',
-            'jpost.com', 'ynet.co.il', 'haaretz.co.il', 'timesofisrael.com',
-            'israelhayom.co.il', 'walla.co.il', 'mako.co.il', 'n12.co.il',
-            'jpost.co.il', 'globes.co.il', 'calcalist.co.il',
-            'mako.co.il', 'reshet.tv', 'kan.org.il'
-        ]
-        
+        self.console = Console()
+        self.tools = {
+            'infected': {
+                'name': 'Display Israeli Infected Sites',
+                'tool': InfectedLinksReport,
+                'description': 'Display list of Israeli infected sites with vulnerabilities'
+            },
+            'exploit': {
+                'name': 'Vulnerability Testing & Exploitation',
+                'tool': ExploitTool,
+                'description': 'Test security vulnerabilities and exploitation'
+            },
+            'dork': {
+                'name': 'Advanced Google Dorking',
+                'tool': GoogleDorkTool,
+                'description': 'Advanced Google dorking tools for finding vulnerabilities'
+            },
+            'vuln': {
+                'name': 'Vulnerability Links',
+                'tool': VulnerabilityLinksViewer,
+                'description': 'Display vulnerability links with test URLs'
+            },
+            'sqli': {
+                'name': 'SQL Injection Scanning',
+                'tool': SQLiScannerTool,
+                'description': 'Scan for SQL injection vulnerabilities in Israeli sites'
+            },
+            'show': {
+                'name': 'Quick Display Infected Sites',
+                'tool': ShowInfectedSites,
+                'description': 'Quick display of infected sites'
+            },
+            'install': {
+                'name': 'Install/Update Tools',
+                'tool': Installer,
+                'description': 'Install or update required tools'
+            }
+        }
+    
     def display_banner(self):
-        """Display application banner"""
+        """Display main banner"""
         banner = """
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                    Advanced SQL Search Tool - English Version                ║
-║                          Developed by: SayerLinux                            ║
-║                    GitHub: https://github.com/SaudiLinux                     ║
-║                    Email: SayerLinux1@gmail.com                            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+[bold red]╔═══════════════════════════════════════════════════════════════════════════════╗[/bold red]
+[bold red]║[/bold red]    [bold yellow]🚨 Advanced Israeli Cyber Security Tools Suite - CLI 🚨[/bold yellow]    [bold red]║[/bold red]
+[bold red]║[/bold red]           [bold cyan]Comprehensive Security Testing for Israeli Sites[/bold cyan]           [bold red]║[/bold red]
+[bold red]║[/bold red]                    [bold green]Command Line Interface[/bold green]                     [bold red]║[/bold red]
+[bold red]╚═══════════════════════════════════════════════════════════════════════════════╝[/bold red]
         """
-        print(banner)
+        self.console.print(Panel(banner, style="bold red"))
+    
+    def display_tools(self):
+        """Display available tools"""
+        table = Table(title="🛠️ Available Tools", show_header=True, header_style="bold magenta")
+        table.add_column("Command", style="cyan", width=12)
+        table.add_column("Name", style="green", width=30)
+        table.add_column("Description", style="yellow", width=50)
         
-    def log_message(self, message, level="INFO"):
-        """Log messages to console"""
-        timestamp = datetime.now().strftime("%H:%M:%S")
-        levels = {
-            "INFO": "[INFO]",
-            "ERROR": "[ERROR]",
-            "SUCCESS": "[SUCCESS]",
-            "WARNING": "[WARNING]"
-        }
+        for cmd, info in self.tools.items():
+            table.add_row(cmd, info['name'], info['description'])
         
-        prefix = levels.get(level, "[INFO]")
-        formatted_message = f"[{timestamp}] {prefix} {message}"
+        self.console.print(table)
+    
+    def run_tool(self, tool_name, args):
+        """Run specific tool"""
+        if tool_name not in self.tools:
+            self.console.print(f"[bold red]❌ Tool not found: {tool_name}[/bold red]")
+            return False
         
-        # Color coding for terminal
-        colors = {
-            "ERROR": "\033[91m",
-            "SUCCESS": "\033[92m", 
-            "WARNING": "\033[93m",
-            "INFO": "\033[94m",
-            "RESET": "\033[0m"
-        }
+        tool_info = self.tools[tool_name]
+        self.console.print(f"[bold yellow]🎯 Running: {tool_info['name']}...[/bold yellow]")
         
-        color = colors.get(level, colors["INFO"])
-        reset = colors["RESET"]
-        print(f"{color}{formatted_message}{reset}")
-        
-    def is_israeli_site(self, url):
-        """Check if site is Israeli"""
-        url_lower = url.lower()
-        return any(domain.lower() in url_lower for domain in self.israeli_domains)
-        
-    def scan_port(self, ip, port, results, lock):
-        """Scan individual port"""
         try:
-            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            sock.settimeout(self.timeout)
-            result = sock.connect_ex((ip, port))
-            
-            if result == 0:
-                service = self.get_service_name(port)
-                with lock:
-                    results.append({
-                        'domain': self.current_domain,
-                        'ip': ip,
-                        'port': port,
-                        'service': service,
-                        'is_israeli': self.is_israeli_site(self.current_domain),
-                        'timestamp': datetime.now().isoformat()
-                    })
-                    self.log_message(f"Found {service} server on port {port}", "SUCCESS")
-            
-            sock.close()
+            with Progress(
+                SpinnerColumn(),
+                TextColumn("[progress.description]{task.description}"),
+                console=self.console,
+            ) as progress:
+                task = progress.add_task(f"Running {tool_info['name']}...", total=None)
+                
+                tool_instance = tool_info['tool']()
+                if hasattr(tool_instance, 'run_cli'):
+                    result = tool_instance.run_cli(args)
+                elif hasattr(tool_instance, 'run'):
+                    result = tool_instance.run()
+                else:
+                    tool_instance()
+                    result = True
+                
+                progress.update(task, completed=True)
+                
+            self.console.print(f"[bold green]✅ Completed: {tool_info['name']}[/bold green]")
+            return result
             
         except Exception as e:
-            pass
-            
-    def get_service_name(self, port):
-        """Get service name by port"""
-        services = {
-            21: "FTP",
-            22: "SSH",
-            23: "Telnet",
-            25: "SMTP",
-            53: "DNS",
-            80: "HTTP",
-            110: "POP3",
-            143: "IMAP",
-            443: "HTTPS",
-            993: "IMAPS",
-            995: "POP3S",
-            1433: "MSSQL",
-            1521: "Oracle",
-            3306: "MySQL",
-            3307: "MySQL",
-            5432: "PostgreSQL",
-            6379: "Redis",
-            27017: "MongoDB",
-            27018: "MongoDB",
-            27019: "MongoDB"
-        }
-        return services.get(port, f"Port {port}")
-        
-    def scan_sql_servers(self, domain, start_port, end_port, max_threads, timeout):
-        """Scan for SQL servers in target domain"""
-        try:
-            # Resolve domain to IP
-            ip = socket.gethostbyname(domain)
-            self.log_message(f"Resolved {domain} to {ip}")
-            
-            self.log_message(f"Scanning ports {start_port}-{end_port} with {max_threads} threads")
-            
-            results = []
-            lock = threading.Lock()
-            threads = []
-            
-            # Scan ports using threads
-            for port in range(start_port, end_port + 1):
-                if not self.searching:
-                    break
-                    
-                while threading.active_count() > max_threads + 10:
-                    time.sleep(0.1)
-                    
-                thread = threading.Thread(
-                    target=self.scan_port,
-                    args=(ip, port, results, lock)
-                )
-                thread.daemon = True
-                thread.start()
-                threads.append(thread)
-                
-            # Wait for all threads to complete
-            for thread in threads:
-                thread.join()
-                
-            return results
-            
-        except Exception as e:
-            self.log_message(f"Error scanning {domain}: {str(e)}", "ERROR")
-            return []
-            
-    def start_search(self):
-        """Start search process"""
-        # Get search parameters
-        print("\n" + "="*60)
-        print("                    SEARCH CONFIGURATION")
-        print("="*60)
-        
-        domain = input("\nEnter target domain (e.g., example.com): ").strip()
-        if not domain:
-            self.log_message("Invalid domain provided", "ERROR")
-            return
-            
-        try:
-            start_port = int(input("Enter start port (default 3300): ") or "3300")
-            end_port = int(input("Enter end port (default 3310): ") or "3310")
-            max_threads = int(input("Enter thread count (default 10): ") or "10")
-            timeout = float(input("Enter timeout in seconds (default 3): ") or "3")
-            
-            if start_port > end_port:
-                self.log_message("Start port must be less than end port", "ERROR")
-                return
-                
-            if max_threads < 1 or max_threads > 100:
-                self.log_message("Thread count must be between 1 and 100", "ERROR")
-                return
-                
-        except ValueError:
-            self.log_message("Please enter valid numbers", "ERROR")
-            return
-            
-        self.timeout = timeout
-        self.current_domain = domain
-        self.results = []
-        self.searching = True
-        
-        self.log_message(f"Starting SQL server scan for: {domain}")
-        
-        results = self.scan_sql_servers(domain, start_port, end_port, max_threads, timeout)
-        self.results = results
-        
-        if results:
-            self.log_message(f"✅ Scan complete! Found {len(results)} servers")
-            
-            # Display summary
-            israeli_count = sum(1 for r in results if r['is_israeli'])
-            self.log_message(f"Israeli sites found: {israeli_count}")
-            
-            # Display results
-            print("\n" + "="*80)
-            print("                    SCAN RESULTS")
-            print("="*80)
-            
-            for i, result in enumerate(results, 1):
-                print(f"\n{i}. Domain: {result['domain']}")
-                print(f"   IP: {result['ip']}:{result['port']}")
-                print(f"   Service: {result['service']}")
-                print(f"   Israeli Site: {'Yes' if result['is_israeli'] else 'No'}")
-                print(f"   Timestamp: {result['timestamp']}")
-                print("-" * 40)
-                
-            # Save results
-            save_choice = input("\nSave results to JSON file? (y/n): ").lower()
-            if save_choice == 'y':
-                filename = f"scan_results_{domain}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-                try:
-                    with open(filename, 'w', encoding='utf-8') as f:
-                        json.dump(self.results, f, ensure_ascii=False, indent=2)
-                    self.log_message(f"Results saved to: {filename}")
-                except Exception as e:
-                    self.log_message(f"Save error: {str(e)}", "ERROR")
-                    
-        else:
-            self.log_message("❌ No SQL servers found")
-            
-        self.searching = False
-        
-    def display_menu(self):
-        """Display main menu"""
-        print("\n" + "="*60)
-        print("                    MAIN MENU")
-        print("="*60)
-        print("1. Start New Search")
-        print("2. View Israeli Domains List")
-        print("3. Clear Results")
-        print("4. About")
-        print("5. Exit")
-        print("="*60)
-        
-    def view_israeli_domains(self):
-        """Display Israeli domains list"""
-        print("\n" + "="*60)
-        print("                    ISRAELI DOMAINS")
-        print("="*60)
-        for domain in self.israeli_domains:
-            print(f"  • {domain}")
-        print(f"\nTotal domains: {len(self.israeli_domains)}")
-        
-    def display_about(self):
-        """Display about information"""
-        print("\n" + "="*60)
-        print("                    ABOUT")
-        print("="*60)
-        print("Advanced SQL Search Tool - English Version")
-        print("A powerful tool for scanning SQL servers and detecting")
-        print("Israeli websites through domain analysis.")
-        print("\nFeatures:")
-        print("• Multi-threaded port scanning")
-        print("• Israeli website detection")
-        print("• JSON result export")
-        print("• Configurable scan parameters")
-        print("• Real-time progress tracking")
-        print("\nDeveloper: SayerLinux")
-        print("GitHub: https://github.com/SaudiLinux")
-        print("Email: SayerLinux1@gmail.com")
-        
-    def run(self):
-        """Main application loop"""
+            self.console.print(f"[bold red]❌ Error running tool: {str(e)}[/bold red]")
+            return False
+    
+    def run_interactive(self):
+        """Run interactive mode"""
         self.display_banner()
+        self.display_tools()
         
         while True:
-            self.display_menu()
-            choice = input("\nEnter your choice (1-5): ").strip()
-            
-            if choice == "1":
-                self.start_search()
-            elif choice == "2":
-                self.view_israeli_domains()
-            elif choice == "3":
-                self.results = []
-                self.log_message("Results cleared")
-            elif choice == "4":
-                self.display_about()
-            elif choice == "5":
-                print("\nThank you for using Advanced SQL Search Tool!")
-                print("Visit https://github.com/SaudiLinux for updates")
+            try:
+                self.console.print("\n[bold cyan]Enter tool name or 'help' for help or 'exit' to quit:[/bold cyan]")
+                choice = input(" > ").strip().lower()
+                
+                if choice in ['exit', 'quit', 'q']:
+                    self.console.print("\n[bold green]👋 Thank you for using Israeli Cyber Security Tools![/bold green]")
+                    break
+                elif choice in ['help', 'h']:
+                    self.display_tools()
+                elif choice in self.tools:
+                    self.run_tool(choice, {})
+                else:
+                    self.console.print("[bold red]❌ Invalid command. Use 'help' to see available commands.[/bold red]")
+                    
+            except KeyboardInterrupt:
+                self.console.print("\n\n[bold yellow]⚡ Program stopped by user[/bold yellow]")
                 break
-            else:
-                self.log_message("Invalid choice. Please select 1-5", "ERROR")
+            except Exception as e:
+                self.console.print(f"\n[bold red]❌ Unexpected error: {str(e)}[/bold red]")
+    
+    def run_batch(self, commands_file):
+        """Run commands from file"""
+        try:
+            with open(commands_file, 'r', encoding='utf-8') as f:
+                commands = json.load(f)
+            
+            self.console.print(f"[bold blue]🔄 Running batch commands from: {commands_file}[/bold blue]")
+            
+            for i, command in enumerate(commands, 1):
+                self.console.print(f"\n[bold cyan]Command {i}/{len(commands)}:[/bold cyan]")
+                
+                tool_name = command.get('tool')
+                args = command.get('args', {})
+                
+                if tool_name and tool_name in self.tools:
+                    self.run_tool(tool_name, args)
+                else:
+                    self.console.print(f"[bold red]❌ Invalid command: {tool_name}[/bold red]")
+                
+                time.sleep(1)  # Delay between commands
+            
+            self.console.print("[bold green]✅ All batch commands completed[/bold green]")
+            
+        except Exception as e:
+            self.console.print(f"[bold red]❌ Error running batch commands: {str(e)}[/bold red]")
+    
+    def generate_report(self, output_file):
+        """Generate comprehensive report"""
+        try:
+            report = {
+                'timestamp': datetime.now().isoformat(),
+                'system_info': {
+                    'python_version': sys.version,
+                    'platform': sys.platform,
+                    'cwd': str(Path.cwd())
+                },
+                'available_tools': list(self.tools.keys()),
+                'report_generated': True
+            }
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(report, f, ensure_ascii=False, indent=2)
+            
+            self.console.print(f"[bold green]✅ Report generated: {output_file}[/bold green]")
+            
+        except Exception as e:
+            self.console.print(f"[bold red]❌ Error generating report: {str(e)}[/bold red]")
 
-if __name__ == "__main__":
+def main():
+    """Main function"""
+    parser = argparse.ArgumentParser(
+        description='Israeli Cyber Security Tools Suite - Command Line Interface',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Usage Examples:
+  python cli_english.py --interactive
+  python cli_english.py --tool sqli --target example.com
+  python cli_english.py --batch commands.json
+  python cli_english.py --report report.json
+        """
+    )
+    
+    parser.add_argument('--interactive', '-i', action='store_true',
+                        help='Run interactive mode')
+    parser.add_argument('--tool', '-t', choices=list(CLIEnglish().tools.keys()),
+                        help='Run specific tool')
+    parser.add_argument('--batch', '-b', metavar='FILE',
+                        help='Run commands from JSON file')
+    parser.add_argument('--report', '-r', metavar='FILE',
+                        help='Generate comprehensive report')
+    parser.add_argument('--target', metavar='URL',
+                        help='Target for testing')
+    parser.add_argument('--list', '-l', action='store_true',
+                        help='List available tools')
+    
+    args = parser.parse_args()
+    
+    cli = CLIEnglish()
+    
     try:
-        tool = AdvancedSQLSearchToolCLI()
-        tool.run()
+        if args.list:
+            cli.display_tools()
+        elif args.interactive:
+            cli.run_interactive()
+        elif args.tool:
+            tool_args = {}
+            if args.target:
+                tool_args['target'] = args.target
+            cli.run_tool(args.tool, tool_args)
+        elif args.batch:
+            cli.run_batch(args.batch)
+        elif args.report:
+            cli.generate_report(args.report)
+        else:
+            cli.display_banner()
+            cli.display_tools()
+            cli.run_interactive()
+            
     except KeyboardInterrupt:
-        print("\n\nTool interrupted by user")
+        console.print("\n\n[bold yellow]⚡ Program stopped by user[/bold yellow]")
         sys.exit(0)
     except Exception as e:
-        print(f"\nError: {str(e)}")
+        console.print(f"\n[bold red]❌ Unexpected error: {str(e)}[/bold red]")
         sys.exit(1)
+
+if __name__ == "__main__":
+    main()

