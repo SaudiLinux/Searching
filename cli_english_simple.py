@@ -33,8 +33,8 @@ def display_tools():
 def run_tool(tool_num):
     """Run specific tool"""
     tools = {
-        1: "python infected_links_report.py",
-        2: "python exploit_tool.py",
+        1: "python infected_sites_report.py",
+        2: "python demo_search.py",
         3: "python google_dork_tool.py", 
         4: "python vulnerability_links_viewer.py",
         5: "python sqli_scanner_tool.py",
@@ -44,7 +44,9 @@ def run_tool(tool_num):
     
     if tool_num in tools:
         print(f"\n🎯 Running Tool {tool_num}...")
-        os.system(tools[tool_num])
+        result = os.system(tools[tool_num])
+        if result != 0:
+            print(f"⚠️ Tool {tool_num} encountered an issue or file not found")
     else:
         print("❌ Invalid tool number")
 
@@ -62,6 +64,7 @@ def run_interactive():
                 break
             elif choice.isdigit() and 1 <= int(choice) <= 7:
                 run_tool(int(choice))
+                input("\nPress Enter to continue...")
             else:
                 print("❌ Please enter a valid number (1-8)")
                 
